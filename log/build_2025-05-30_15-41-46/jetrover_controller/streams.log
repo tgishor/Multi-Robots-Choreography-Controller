@@ -1,0 +1,31 @@
+[7.612s] Invoking command in '/home/ubuntu/axy_proj/src/jetrover_controller': PYTHONPATH=/home/ubuntu/axy_proj/build/jetrover_controller/prefix_override:/home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/jetrover_controller build --build-base /home/ubuntu/axy_proj/build/jetrover_controller/build install --record /home/ubuntu/axy_proj/build/jetrover_controller/install.log --single-version-externally-managed install_data
+[8.894s] running egg_info
+[8.956s] writing ../../build/jetrover_controller/jetrover_controller.egg-info/PKG-INFO
+[8.960s] writing dependency_links to ../../build/jetrover_controller/jetrover_controller.egg-info/dependency_links.txt
+[8.965s] writing entry points to ../../build/jetrover_controller/jetrover_controller.egg-info/entry_points.txt
+[8.966s] writing requirements to ../../build/jetrover_controller/jetrover_controller.egg-info/requires.txt
+[8.966s] writing top-level names to ../../build/jetrover_controller/jetrover_controller.egg-info/top_level.txt
+[9.136s] reading manifest file '../../build/jetrover_controller/jetrover_controller.egg-info/SOURCES.txt'
+[9.139s] writing manifest file '../../build/jetrover_controller/jetrover_controller.egg-info/SOURCES.txt'
+[9.154s] running build
+[9.155s] running build_py
+[9.155s] copying jetrover_controller/robot_manager.py -> /home/ubuntu/axy_proj/build/jetrover_controller/build/lib/jetrover_controller
+[9.155s] copying jetrover_controller/dance_attempt.py -> /home/ubuntu/axy_proj/build/jetrover_controller/build/lib/jetrover_controller
+[9.155s] running install
+[9.166s] running install_lib
+[9.231s] copying /home/ubuntu/axy_proj/build/jetrover_controller/build/lib/jetrover_controller/robot_manager.py -> /home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages/jetrover_controller
+[9.231s] copying /home/ubuntu/axy_proj/build/jetrover_controller/build/lib/jetrover_controller/dance_attempt.py -> /home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages/jetrover_controller
+[9.233s] byte-compiling /home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages/jetrover_controller/robot_manager.py to robot_manager.cpython-310.pyc
+[9.255s] byte-compiling /home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages/jetrover_controller/dance_attempt.py to dance_attempt.cpython-310.pyc
+[9.262s] running install_data
+[9.263s] running install_egg_info
+[9.336s] removing '/home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages/jetrover_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[9.343s] Copying ../../build/jetrover_controller/jetrover_controller.egg-info to /home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages/jetrover_controller-0.0.0-py3.10.egg-info
+[9.343s] running install_scripts
+[9.840s] Installing dance_attempt script to /home/ubuntu/axy_proj/install/jetrover_controller/lib/jetrover_controller
+[9.841s] Installing lidar_safety script to /home/ubuntu/axy_proj/install/jetrover_controller/lib/jetrover_controller
+[9.841s] Installing move_arm script to /home/ubuntu/axy_proj/install/jetrover_controller/lib/jetrover_controller
+[9.848s] Installing move_robot script to /home/ubuntu/axy_proj/install/jetrover_controller/lib/jetrover_controller
+[9.849s] Installing robo_manager script to /home/ubuntu/axy_proj/install/jetrover_controller/lib/jetrover_controller
+[9.849s] writing list of installed files to '/home/ubuntu/axy_proj/build/jetrover_controller/install.log'
+[10.009s] Invoked command in '/home/ubuntu/axy_proj/src/jetrover_controller' returned '0': PYTHONPATH=/home/ubuntu/axy_proj/build/jetrover_controller/prefix_override:/home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/jetrover_controller build --build-base /home/ubuntu/axy_proj/build/jetrover_controller/build install --record /home/ubuntu/axy_proj/build/jetrover_controller/install.log --single-version-externally-managed install_data

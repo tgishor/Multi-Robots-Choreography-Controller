@@ -1,0 +1,32 @@
+[6.492s] Invoking command in '/home/ubuntu/axy_proj/src/jetrover_controller': PYTHONPATH=/home/ubuntu/axy_proj/build/jetrover_controller/prefix_override:/home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/jetrover_controller build --build-base /home/ubuntu/axy_proj/build/jetrover_controller/build install --record /home/ubuntu/axy_proj/build/jetrover_controller/install.log --single-version-externally-managed install_data
+[7.579s] running egg_info
+[7.625s] writing ../../build/jetrover_controller/jetrover_controller.egg-info/PKG-INFO
+[7.627s] writing dependency_links to ../../build/jetrover_controller/jetrover_controller.egg-info/dependency_links.txt
+[7.628s] writing entry points to ../../build/jetrover_controller/jetrover_controller.egg-info/entry_points.txt
+[7.628s] writing requirements to ../../build/jetrover_controller/jetrover_controller.egg-info/requires.txt
+[7.629s] writing top-level names to ../../build/jetrover_controller/jetrover_controller.egg-info/top_level.txt
+[7.728s] reading manifest file '../../build/jetrover_controller/jetrover_controller.egg-info/SOURCES.txt'
+[7.733s] writing manifest file '../../build/jetrover_controller/jetrover_controller.egg-info/SOURCES.txt'
+[7.733s] running build
+[7.734s] running build_py
+[7.735s] copying jetrover_controller/enhanced_dance.py -> /home/ubuntu/axy_proj/build/jetrover_controller/build/lib/jetrover_controller
+[7.735s] copying jetrover_controller/buzzer_stop.py -> /home/ubuntu/axy_proj/build/jetrover_controller/build/lib/jetrover_controller
+[7.736s] copying jetrover_controller/move_robot.py -> /home/ubuntu/axy_proj/build/jetrover_controller/build/lib/jetrover_controller
+[7.737s] copying jetrover_controller/robot_manager.py -> /home/ubuntu/axy_proj/build/jetrover_controller/build/lib/jetrover_controller
+[7.738s] copying jetrover_controller/dance_attempt.py -> /home/ubuntu/axy_proj/build/jetrover_controller/build/lib/jetrover_controller
+[7.739s] running install
+[7.753s] running install_lib
+[7.808s] running install_data
+[7.809s] running install_egg_info
+[7.873s] removing '/home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages/jetrover_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[7.875s] Copying ../../build/jetrover_controller/jetrover_controller.egg-info to /home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages/jetrover_controller-0.0.0-py3.10.egg-info
+[7.880s] running install_scripts
+[8.317s] Installing buzzer_stop script to /home/ubuntu/axy_proj/install/jetrover_controller/lib/jetrover_controller
+[8.318s] Installing dance_attempt script to /home/ubuntu/axy_proj/install/jetrover_controller/lib/jetrover_controller
+[8.319s] Installing enhanced_dance script to /home/ubuntu/axy_proj/install/jetrover_controller/lib/jetrover_controller
+[8.319s] Installing lidar_safety script to /home/ubuntu/axy_proj/install/jetrover_controller/lib/jetrover_controller
+[8.319s] Installing move_arm script to /home/ubuntu/axy_proj/install/jetrover_controller/lib/jetrover_controller
+[8.319s] Installing move_robot script to /home/ubuntu/axy_proj/install/jetrover_controller/lib/jetrover_controller
+[8.320s] Installing robo_manager script to /home/ubuntu/axy_proj/install/jetrover_controller/lib/jetrover_controller
+[8.321s] writing list of installed files to '/home/ubuntu/axy_proj/build/jetrover_controller/install.log'
+[8.479s] Invoked command in '/home/ubuntu/axy_proj/src/jetrover_controller' returned '0': PYTHONPATH=/home/ubuntu/axy_proj/build/jetrover_controller/prefix_override:/home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/jetrover_controller build --build-base /home/ubuntu/axy_proj/build/jetrover_controller/build install --record /home/ubuntu/axy_proj/build/jetrover_controller/install.log --single-version-externally-managed install_data

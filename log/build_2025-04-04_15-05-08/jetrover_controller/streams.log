@@ -1,0 +1,32 @@
+[7.274s] Invoking command in '/home/ubuntu/axy_proj/src/jetrover_controller': PYTHONPATH=/home/ubuntu/axy_proj/build/jetrover_controller/prefix_override:/home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/jetrover_controller build --build-base /home/ubuntu/axy_proj/build/jetrover_controller/build install --record /home/ubuntu/axy_proj/build/jetrover_controller/install.log --single-version-externally-managed install_data
+[8.229s] running egg_info
+[8.282s] writing ../../build/jetrover_controller/jetrover_controller.egg-info/PKG-INFO
+[8.284s] writing dependency_links to ../../build/jetrover_controller/jetrover_controller.egg-info/dependency_links.txt
+[8.285s] writing entry points to ../../build/jetrover_controller/jetrover_controller.egg-info/entry_points.txt
+[8.285s] writing requirements to ../../build/jetrover_controller/jetrover_controller.egg-info/requires.txt
+[8.285s] writing top-level names to ../../build/jetrover_controller/jetrover_controller.egg-info/top_level.txt
+[8.386s] reading manifest file '../../build/jetrover_controller/jetrover_controller.egg-info/SOURCES.txt'
+[8.389s] writing manifest file '../../build/jetrover_controller/jetrover_controller.egg-info/SOURCES.txt'
+[8.390s] running build
+[8.391s] running build_py
+[8.393s] copying jetrover_controller/move_arm (copy).py -> /home/ubuntu/axy_proj/build/jetrover_controller/build/lib/jetrover_controller
+[8.396s] copying jetrover_controller/move_arm.py -> /home/ubuntu/axy_proj/build/jetrover_controller/build/lib/jetrover_controller
+[8.396s] copying jetrover_controller/move_robot.py -> /home/ubuntu/axy_proj/build/jetrover_controller/build/lib/jetrover_controller
+[8.397s] running install
+[8.412s] running install_lib
+[8.460s] copying /home/ubuntu/axy_proj/build/jetrover_controller/build/lib/jetrover_controller/move_arm (copy).py -> /home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages/jetrover_controller
+[8.461s] copying /home/ubuntu/axy_proj/build/jetrover_controller/build/lib/jetrover_controller/move_arm.py -> /home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages/jetrover_controller
+[8.461s] copying /home/ubuntu/axy_proj/build/jetrover_controller/build/lib/jetrover_controller/move_robot.py -> /home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages/jetrover_controller
+[8.464s] byte-compiling /home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages/jetrover_controller/move_arm (copy).py to move_arm (copy).cpython-310.pyc
+[8.465s] byte-compiling /home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages/jetrover_controller/move_arm.py to move_arm.cpython-310.pyc
+[8.467s] byte-compiling /home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages/jetrover_controller/move_robot.py to move_robot.cpython-310.pyc
+[8.469s] running install_data
+[8.469s] copying package.xml -> /home/ubuntu/axy_proj/install/jetrover_controller/share/jetrover_controller
+[8.470s] running install_egg_info
+[8.525s] removing '/home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages/jetrover_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[8.526s] Copying ../../build/jetrover_controller/jetrover_controller.egg-info to /home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages/jetrover_controller-0.0.0-py3.10.egg-info
+[8.535s] running install_scripts
+[9.038s] Installing move_arm script to /home/ubuntu/axy_proj/install/jetrover_controller/lib/jetrover_controller
+[9.039s] Installing move_robot script to /home/ubuntu/axy_proj/install/jetrover_controller/lib/jetrover_controller
+[9.040s] writing list of installed files to '/home/ubuntu/axy_proj/build/jetrover_controller/install.log'
+[9.172s] Invoked command in '/home/ubuntu/axy_proj/src/jetrover_controller' returned '0': PYTHONPATH=/home/ubuntu/axy_proj/build/jetrover_controller/prefix_override:/home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/jetrover_controller build --build-base /home/ubuntu/axy_proj/build/jetrover_controller/build install --record /home/ubuntu/axy_proj/build/jetrover_controller/install.log --single-version-externally-managed install_data

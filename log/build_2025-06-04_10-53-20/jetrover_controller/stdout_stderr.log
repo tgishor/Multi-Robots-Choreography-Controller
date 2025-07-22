@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/jetrover_controller/jetrover_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/jetrover_controller/jetrover_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/jetrover_controller/jetrover_controller.egg-info/entry_points.txt
+writing requirements to ../../build/jetrover_controller/jetrover_controller.egg-info/requires.txt
+writing top-level names to ../../build/jetrover_controller/jetrover_controller.egg-info/top_level.txt
+reading manifest file '../../build/jetrover_controller/jetrover_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/jetrover_controller/jetrover_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+copying jetrover_controller/move_robot.py -> /home/ubuntu/axy_proj/build/jetrover_controller/build/lib/jetrover_controller
+copying jetrover_controller/robot_manager.py -> /home/ubuntu/axy_proj/build/jetrover_controller/build/lib/jetrover_controller
+copying jetrover_controller/dance_attempt.py -> /home/ubuntu/axy_proj/build/jetrover_controller/build/lib/jetrover_controller
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages/jetrover_controller-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/jetrover_controller/jetrover_controller.egg-info to /home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages/jetrover_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing dance_attempt script to /home/ubuntu/axy_proj/install/jetrover_controller/lib/jetrover_controller
+Installing lidar_safety script to /home/ubuntu/axy_proj/install/jetrover_controller/lib/jetrover_controller
+Installing move_arm script to /home/ubuntu/axy_proj/install/jetrover_controller/lib/jetrover_controller
+Installing move_robot script to /home/ubuntu/axy_proj/install/jetrover_controller/lib/jetrover_controller
+Installing robo_manager script to /home/ubuntu/axy_proj/install/jetrover_controller/lib/jetrover_controller
+writing list of installed files to '/home/ubuntu/axy_proj/build/jetrover_controller/install.log'
