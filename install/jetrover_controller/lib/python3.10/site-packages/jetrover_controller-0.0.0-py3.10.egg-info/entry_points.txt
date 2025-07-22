@@ -1,0 +1,11 @@
+[console_scripts]
+buzzer_stop = jetrover_controller.buzzer_stop:main
+dance_attempt = jetrover_controller.dance_attempt:main
+enhanced_dance = jetrover_controller.enhanced_dance:main
+gui = jetrover_controller.control_gui:main
+keyboard = jetrover_controller.keyboard:main
+lidar_safety = jetrover_controller.lidar_safety:main
+move_arm = jetrover_controller.move_arm:main
+move_robot = jetrover_controller.move_robot:main
+robo_manager = jetrover_controller.robot_manager:main
+robot_sync = jetrover_controller.robot_sync:main

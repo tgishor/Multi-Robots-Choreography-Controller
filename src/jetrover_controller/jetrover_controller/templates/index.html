@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mecanum Robot Controller</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            color: #333;
+        }
+
+        .main-container {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-radius: 24px;
+            box-shadow: 0 32px 64px rgba(0, 0, 0, 0.12);
+            max-width: 900px;
+            width: 100%;
+            padding: 40px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 8px;
+        }
+
+        .header .subtitle {
+            color: #64748b;
+            font-size: 1.1rem;
+            font-weight: 400;
+        }
+
+        .status-bar {
+            background: linear-gradient(135deg, #10b981, #059669);
+            color: white;
+            padding: 16px 24px;
+            border-radius: 16px;
+            text-align: center;
+            margin-bottom: 32px;
+            font-weight: 500;
+            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .speed-section {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 20px;
+            padding: 24px;
+            margin-bottom: 32px;
+        }
+
+        .speed-section h3 {
+            color: #1e293b;
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .speed-controls {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .speed-slider {
+            flex: 1;
+            height: 8px;
+            border-radius: 4px;
+            background: #e2e8f0;
+            outline: none;
+            -webkit-appearance: none;
+            cursor: pointer;
+        }
+
+        .speed-slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(102, 126, 234, 0.4);
+            transition: all 0.2s ease;
+        }
+
+        .speed-slider::-webkit-slider-thumb:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.6);
+        }
+
+        .speed-display {
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 12px 20px;
+            font-weight: 600;
+            color: #1e293b;
+            min-width: 120px;
+            text-align: center;
+        }
+
+        .control-sections {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+            margin-bottom: 32px;
+        }
+
+        .control-section {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 20px;
+            padding: 24px;
+        }
+
+        .control-section h3 {
+            color: #1e293b;
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .control-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+        }
+
+        .control-btn {
+            background: white;
+            border: 2px solid #e2e8f0;
+            border-radius: 16px;
+            padding: 16px 12px;
+            color: #1e293b;
+            font-weight: 600;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+            min-height: 80px;
+            justify-content: center;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .control-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+            border-color: #667eea;
+        }
+
+        .control-btn:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .control-btn.primary {
+            background: linear-gradient(135deg, #3b82f6, #2563eb);
+            color: white;
+            border-color: #3b82f6;
+        }
+
+        .control-btn.primary:hover {
+            background: linear-gradient(135deg, #2563eb, #1d4ed8);
+            border-color: #2563eb;
+        }
+
+        .control-btn.secondary {
+            background: linear-gradient(135deg, #8b5cf6, #7c3aed);
+            color: white;
+            border-color: #8b5cf6;
+        }
+
+        .control-btn.secondary:hover {
+            background: linear-gradient(135deg, #7c3aed, #6d28d9);
+            border-color: #7c3aed;
+        }
+
+        .control-btn.warning {
+            background: linear-gradient(135deg, #f59e0b, #d97706);
+            color: white;
+            border-color: #f59e0b;
+        }
+
+        .control-btn.warning:hover {
+            background: linear-gradient(135deg, #d97706, #b45309);
+            border-color: #d97706;
+        }
+
+        .control-btn.success {
+            background: linear-gradient(135deg, #10b981, #059669);
+            color: white;
+            border-color: #10b981;
+        }
+
+        .control-btn.success:hover {
+            background: linear-gradient(135deg, #059669, #047857);
+            border-color: #059669;
+        }
+
+        .control-btn .icon {
+            font-size: 1.5rem;
+            line-height: 1;
+        }
+
+        .control-btn .label {
+            font-size: 0.8rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .emergency-section {
+            text-align: center;
+        }
+
+        .emergency-btn {
+            background: linear-gradient(135deg, #ef4444, #dc2626);
+            color: white;
+            border: none;
+            border-radius: 20px;
+            padding: 20px 40px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            box-shadow: 0 8px 20px rgba(239, 68, 68, 0.3);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .emergency-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 28px rgba(239, 68, 68, 0.4);
+            background: linear-gradient(135deg, #dc2626, #b91c1c);
+        }
+
+        .emergency-btn:active {
+            transform: translateY(0);
+            box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3);
+        }
+
+        .empty-grid {
+            grid-column: span 1;
+        }
+
+        @media (max-width: 768px) {
+            .main-container {
+                padding: 24px;
+                margin: 10px;
+            }
+
+            .control-sections {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .control-btn {
+                min-height: 70px;
+                padding: 12px 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="header">
+            <h1>🤖 Mecanum Robot Controller</h1>
+            <p class="subtitle">Professional Control Interface</p>
+        </div>
+
+        <div class="status-bar" id="status">System Ready</div>
+
+        <div class="speed-section">
+            <h3>⚡ Speed Control</h3>
+            <div class="speed-controls">
+                <input type="range" id="speed" class="speed-slider" min="0.05" max="0.30" step="0.05" value="0.10" onchange="updateSpeed()">
+                <div class="speed-display">
+                    <span id="speed-value">0.10</span> m/s
+                </div>
+            </div>
+        </div>
+
+        <div class="control-sections">
+            <div class="control-section">
+                <h3>🎯 Basic Movements</h3>
+                <div class="control-grid">
+                    <div class="empty-grid"></div>
+                    <button class="control-btn primary" onclick="move('forward')">
+                        <span class="icon">⬆️</span>
+                        <span class="label">Forward</span>
+                    </button>
+                    <div class="empty-grid"></div>
+                    
+                    <button class="control-btn primary" onclick="move('left')">
+                        <span class="icon">⬅️</span>
+                        <span class="label">Left</span>
+                    </button>
+                    <div class="empty-grid"></div>
+                    <button class="control-btn primary" onclick="move('right')">
+                        <span class="icon">➡️</span>
+                        <span class="label">Right</span>
+                    </button>
+                    
+                    <div class="empty-grid"></div>
+                    <button class="control-btn primary" onclick="move('backward')">
+                        <span class="icon">⬇️</span>
+                        <span class="label">Backward</span>
+                    </button>
+                    <div class="empty-grid"></div>
+                </div>
+            </div>
+
+            <div class="control-section">
+                <h3>🚀 Advanced Movements</h3>
+                <div class="control-grid">
+                    <button class="control-btn warning" onclick="move('rotate_left')">
+                        <span class="icon">🔄</span>
+                        <span class="label">Rotate L</span>
+                    </button>
+                    <button class="control-btn warning" onclick="move('rotate_right')">
+                        <span class="icon">🔃</span>
+                        <span class="label">Rotate R</span>
+                    </button>
+                    <button class="control-btn success" onclick="move('circle')">
+                        <span class="icon">🌀</span>
+                        <span class="label">Circle</span>
+                    </button>
+                    
+                    <button class="control-btn secondary" onclick="move('diag_fl')">
+                        <span class="icon">↖️</span>
+                        <span class="label">Diag FL</span>
+                    </button>
+                    <button class="control-btn secondary" onclick="move('diag_fr')">
+                        <span class="icon">↗️</span>
+                        <span class="label">Diag FR</span>
+                    </button>
+                    <div class="empty-grid"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="emergency-section">
+            <button class="emergency-btn" onclick="emergencyStop()">
+                🛑 Emergency Stop
+            </button>
+        </div>
+    </div>
+
+    <script>
+        function updateSpeed() {
+            const speed = document.getElementById('speed').value;
+            document.getElementById('speed-value').textContent = speed;
+        }
+        
+        function setStatus(msg, type = 'info') {
+            const statusEl = document.getElementById('status');
+            statusEl.textContent = msg;
+            
+            // Reset classes
+            statusEl.style.background = '';
+            
+            switch(type) {
+                case 'success':
+                    statusEl.style.background = 'linear-gradient(135deg, #10b981, #059669)';
+                    break;
+                case 'error':
+                    statusEl.style.background = 'linear-gradient(135deg, #ef4444, #dc2626)';
+                    break;
+                case 'warning':
+                    statusEl.style.background = 'linear-gradient(135deg, #f59e0b, #d97706)';
+                    break;
+                case 'processing':
+                    statusEl.style.background = 'linear-gradient(135deg, #3b82f6, #2563eb)';
+                    break;
+                default:
+                    statusEl.style.background = 'linear-gradient(135deg, #10b981, #059669)';
+            }
+        }
+        
+        function move(direction) {
+            const speed = parseFloat(document.getElementById('speed').value);
+            setStatus(`Executing ${direction.replace('_', ' ')} movement...`, 'processing');
+            
+            fetch('/move', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ direction: direction, speed: speed })
+            })
+            .then(response => response.json())
+            .then(data => {
+                setStatus(data.status, 'success');
+                setTimeout(() => setStatus('System Ready'), 3000);
+            })
+            .catch(error => {
+                setStatus('Connection Error: ' + error.message, 'error');
+                setTimeout(() => setStatus('System Ready'), 3000);
+            });
+        }
+        
+        function emergencyStop() {
+            setStatus('EMERGENCY STOP ACTIVATED!', 'warning');
+            
+            fetch('/stop', { 
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' }
+            })
+            .then(response => response.json())
+            .then(data => {
+                setStatus('Robot Stopped Successfully', 'success');
+                setTimeout(() => setStatus('System Ready'), 3000);
+            })
+            .catch(error => {
+                setStatus('Stop Error: ' + error.message, 'error');
+                setTimeout(() => setStatus('System Ready'), 3000);
+            });
+        }
+
+        // Keyboard shortcuts
+        document.addEventListener('keydown', function(event) {
+            if (event.target.tagName === 'INPUT') return; // Don't interfere with input fields
+            
+            switch(event.key) {
+                case 'ArrowUp':
+                case 'w':
+                case 'W':
+                    event.preventDefault();
+                    move('forward');
+                    break;
+                case 'ArrowDown':
+                case 's':
+                case 'S':
+                    event.preventDefault();
+                    move('backward');
+                    break;
+                case 'ArrowLeft':
+                case 'a':
+                case 'A':
+                    event.preventDefault();
+                    move('left');
+                    break;
+                case 'ArrowRight':
+                case 'd':
+                case 'D':
+                    event.preventDefault();
+                    move('right');
+                    break;
+                case 'q':
+                case 'Q':
+                    event.preventDefault();
+                    move('rotate_left');
+                    break;
+                case 'e':
+                case 'E':
+                    event.preventDefault();
+                    move('rotate_right');
+                    break;
+                case ' ':
+                    event.preventDefault();
+                    emergencyStop();
+                    break;
+            }
+        });
+    </script>
+</body>
+</html>
