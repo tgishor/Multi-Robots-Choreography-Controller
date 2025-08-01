@@ -6,16 +6,32 @@ import sys
 import termios
 import tty
 import select
+import argparse
 
-class KeyboardController(Node):
-    def __init__(self):
-        super().__init__('keyboard_controller')
-        self.publisher_ = self.create_publisher(Twist, 'controller/cmd_vel', 10)
+class MultiRobotTeleop(Node):
+    def __init__(self, robot_namespace=''):
+        # Create unique node name with namespace
+        node_name = 'multi_robot_teleop'
+        if robot_namespace:
+            node_name = f'multi_robot_teleop_{robot_namespace}'
+            
+        super().__init__(node_name)
+        
+        # Build topic name with namespace
+        if robot_namespace:
+            topic_name = f'/{robot_namespace}/controller/cmd_vel'
+        else:
+            topic_name = 'controller/cmd_vel'
+            
+        self.publisher_ = self.create_publisher(Twist, topic_name, 10)
+        self.robot_namespace = robot_namespace
         
         self.speed = 0.1
         self.turn_speed = 0.3
         
-        print("🤖 Mecanum Robot Keyboard Controller")
+        print("🤖 Multi-Robot Keyboard Teleop")
+        if robot_namespace:
+            print(f"🏷️  Controlling Robot: {robot_namespace}")
         print("="*40)
         print("Controls:")
         print("  w/s: Forward/Backward")
@@ -27,6 +43,7 @@ class KeyboardController(Node):
         print("  x: Exit")
         print("="*40)
         print(f"Current speed: {self.speed:.2f} m/s")
+        print(f"Publishing to: {topic_name}")
         
     def get_key(self):
         """Get single keypress without Enter"""
@@ -110,14 +127,28 @@ class KeyboardController(Node):
             self.send_cmd()
             termios.tcsetattr(sys.stdin, termios.TCSADRAIN, self.original_settings)
 
-def main():
-    rclpy.init()
-    controller = KeyboardController()
+def main(args=None):
+    # Parse ROS arguments
+    rclpy.init(args=args)
+    
+    # Parse remaining arguments for robot namespace
+    import sys
+    robot_namespace = ''
+    
+    # Simple argument parsing for --robot
+    if '--robot' in sys.argv:
+        try:
+            robot_idx = sys.argv.index('--robot')
+            if robot_idx + 1 < len(sys.argv):
+                robot_namespace = sys.argv[robot_idx + 1]
+        except (ValueError, IndexError):
+            pass
     
     try:
+        controller = MultiRobotTeleop(robot_namespace)
         controller.run()
     finally:
         rclpy.shutdown()
 
 if __name__ == '__main__':
-    main() 
+    main()

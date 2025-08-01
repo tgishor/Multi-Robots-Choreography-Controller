@@ -8,4 +8,4 @@ lidar_safety = jetrover_controller.lidar_safety:main
 move_arm = jetrover_controller.move_arm:main
 move_robot = jetrover_controller.move_robot:main
 robo_manager = jetrover_controller.robot_manager:main
-robot_sync = jetrover_controller.robot_sync:main
+robot_sync = jetrover_controller.robot_synchronizer:main
