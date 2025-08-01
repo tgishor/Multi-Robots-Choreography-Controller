@@ -22,6 +22,7 @@ jetrover_controller/move_robot.py
 jetrover_controller/resource.py
 jetrover_controller/robot_manager.py
 jetrover_controller/robot_sync.py
+jetrover_controller/robot_synchronizer.py
 jetrover_controller/web.py
 resource/jetrover_controller
 test/test_copyright.py
