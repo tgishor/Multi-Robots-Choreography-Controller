@@ -27,7 +27,7 @@ class MultiRobotTeleop(Node):
         self.robot_namespace = robot_namespace
         
         self.speed = 0.1
-        self.turn_speed = 0.3
+        self.turn_speed = 0.5  # Start conservative, use ] to increase
         
         print("🤖 Multi-Robot Keyboard Teleop")
         if robot_namespace:
@@ -39,10 +39,12 @@ class MultiRobotTeleop(Node):
         print("  q/e: Rotate Left/Right")
         print("  z/c: Diagonal movements")
         print("  +/-: Increase/Decrease speed")
+        print("  [/]: Decrease/Increase turn speed")
         print("  SPACE: Stop")
         print("  x: Exit")
         print("="*40)
         print(f"Current speed: {self.speed:.2f} m/s")
+        print(f"Current turn speed: {self.turn_speed:.2f} rad/s")
         print(f"Publishing to: {topic_name}")
         
     def get_key(self):
@@ -108,6 +110,14 @@ class MultiRobotTeleop(Node):
                 elif key == '-':
                     self.speed = max(0.05, self.speed - 0.05)
                     print(f"🐌 Speed: {self.speed:.2f}")
+                    
+                elif key == '[':
+                    self.turn_speed = max(0.1, self.turn_speed - 0.2)
+                    print(f"🔄⬇️  Turn Speed: {self.turn_speed:.2f} rad/s")
+                    
+                elif key == ']':
+                    self.turn_speed = min(4.0, self.turn_speed + 0.2)
+                    print(f"🔄⬆️  Turn Speed: {self.turn_speed:.2f} rad/s")
                     
                 elif key == ' ':
                     print("🛑 STOP")
