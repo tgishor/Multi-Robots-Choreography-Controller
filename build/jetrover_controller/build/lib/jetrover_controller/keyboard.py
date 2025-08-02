@@ -7,6 +7,9 @@ import termios
 import tty
 import select
 import argparse
+import time
+import threading
+import math
 
 class MultiRobotTeleop(Node):
     def __init__(self, robot_namespace=''):
@@ -40,11 +43,13 @@ class MultiRobotTeleop(Node):
         print("  z/c: Diagonal movements")
         print("  +/-: Increase/Decrease speed")
         print("  [/]: Decrease/Increase turn speed")
+        print("  r: Full 360° turn right (test)")
         print("  SPACE: Stop")
         print("  x: Exit")
         print("="*40)
+        turn_time = (2 * math.pi) / self.turn_speed
         print(f"Current speed: {self.speed:.2f} m/s")
-        print(f"Current turn speed: {self.turn_speed:.2f} rad/s")
+        print(f"Current turn speed: {self.turn_speed:.2f} rad/s (360° in {turn_time:.1f}s)")
         print(f"Publishing to: {topic_name}")
         
     def get_key(self):
@@ -62,6 +67,37 @@ class MultiRobotTeleop(Node):
         twist.linear.y = float(linear_y)
         twist.angular.z = float(angular_z)
         self.publisher_.publish(twist)
+        
+    def full_turn_right(self):
+        """Execute a full 360° turn to the right"""
+        # Calculate time for 360° turn: 2π / angular_velocity
+        turn_time = (2 * math.pi) / self.turn_speed
+        
+        print(f"🔄 Starting 360° turn right at {self.turn_speed:.2f} rad/s")
+        print(f"⏱️  Expected time: {turn_time:.1f} seconds")
+        
+        # Start timing
+        start_time = time.time()
+        
+        # Run in separate thread to not block keyboard input
+        def execute_turn():
+            # Send rotation commands at 10Hz for the calculated duration
+            rate = 10  # Hz
+            total_iterations = int(turn_time * rate)
+            
+            for i in range(total_iterations):
+                self.send_cmd(angular_z=-self.turn_speed)  # Negative for right turn
+                time.sleep(1.0 / rate)
+            
+            # Stop the robot
+            self.send_cmd()  # Send stop command
+            
+            actual_time = time.time() - start_time
+            print(f"✅ Turn completed! Actual time: {actual_time:.1f}s (Expected: {turn_time:.1f}s)")
+        
+        # Execute in background thread
+        turn_thread = threading.Thread(target=execute_turn, daemon=True)
+        turn_thread.start()
         
     def run(self):
         """Main control loop"""
@@ -113,11 +149,16 @@ class MultiRobotTeleop(Node):
                     
                 elif key == '[':
                     self.turn_speed = max(0.1, self.turn_speed - 0.2)
-                    print(f"🔄⬇️  Turn Speed: {self.turn_speed:.2f} rad/s")
+                    turn_time = (2 * math.pi) / self.turn_speed
+                    print(f"🔄⬇️  Turn Speed: {self.turn_speed:.2f} rad/s (360° in {turn_time:.1f}s)")
                     
                 elif key == ']':
                     self.turn_speed = min(4.0, self.turn_speed + 0.2)
-                    print(f"🔄⬆️  Turn Speed: {self.turn_speed:.2f} rad/s")
+                    turn_time = (2 * math.pi) / self.turn_speed
+                    print(f"🔄⬆️  Turn Speed: {self.turn_speed:.2f} rad/s (360° in {turn_time:.1f}s)")
+                    
+                elif key == 'r':
+                    self.full_turn_right()
                     
                 elif key == ' ':
                     print("🛑 STOP")
