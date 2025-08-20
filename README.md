@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🤖 Robots Choreography Controller
 
 [![ROS2](https://img.shields.io/badge/ROS2-Humble-blue.svg)](https://docs.ros.org/en/humble/)
@@ -6,6 +5,9 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A sophisticated robotics choreography system that synchronizes multiple robots to perform expressive dance movements based on real-time musical analysis. This project combines advanced signal processing, algorithmic movement generation, and robotics to create an autonomous multi-robot dance performance system.
+
+![Robot Dance Performance](images/robot-dance-hero.gif)
+*Multi-robot synchronized dance performance responding to musical beats*
 
 ## 🎭 Overview 
 
@@ -19,6 +21,11 @@ This system transforms music into coordinated robotic dance performances using a
 - 🛡️ **Safety Systems**: Emergency stops, obstacle avoidance, and movement limiting
 - 🎯 **Multiple Robot Platforms**: Support for both Mecanum wheels and Ackermann steering
 - 🖥️ **Multiple Control Interfaces**: GUI, web-based, and keyboard control options
+
+<div align="center">
+  <img src="images/system-overview.png" alt="System Architecture" width="800"/>
+  <p><em>System architecture showing multi-robot coordination and control interfaces</em></p>
+</div>
 
 ## 📁 Project Structure
 
@@ -58,6 +65,9 @@ mfccs = librosa.feature.mfcc(y=y, sr=sr, n_mfcc=13)
 - **Harmonic Analysis**: Chroma features for tonal content
 - **Onset Detection**: Sharp attack identification for accent movements
 
+![Musical Analysis](images/musical-analysis-features.png)
+*Real-time musical feature extraction and analysis pipeline*
+
 #### Movement Classification System
 The system categorizes movements into distinct types based on musical characteristics:
 
@@ -87,6 +97,11 @@ if self.beat_counter % 8 == 0 and amp > 200:
     self.robot3_move_direction *= -1
     robot3_twist.linear.x = 0.001 * amp * self.robot3_move_direction
 ```
+
+<div align="center">
+  <img src="images/multi-robot-coordination.gif" alt="Multi-Robot Coordination" width="600"/>
+  <p><em>Three robots performing synchronized choreography with different movement patterns</em></p>
+</div>
 
 #### Safety & Control Systems
 - **Emergency Stop**: Multi-layered stopping with keyboard monitoring
@@ -146,6 +161,9 @@ ros2 run jetrover_controller arm_keyboard --robot robot_1
 - `0/)`: Gripper -/+ (Open/Close)
 - `h`: Home position
 - `u/f/d`: Reach up/forward/down presets
+
+![Arm Control Interface](images/arm-keyboard-control.png)
+*Real-time arm control interface showing joint positions and control scheme*
 
 ### 3. Arm Synchronizer (`arm_synchronizer.py`)
 
@@ -216,6 +234,11 @@ ros2 run jetrover_controller control_gui
 - Threading (non-blocking operations)
 - ROS2 geometry_msgs
 
+<div align="center">
+  <img src="images/gui-control-interface.png" alt="GUI Control Interface" width="700"/>
+  <p><em>Professional GUI interface for Mecanum robot control with real-time status</em></p>
+</div>
+
 ### 5. Enhanced Dance with Obstacle Avoidance (`enhanced_dance.py`)
 
 An advanced dance system specifically tailored for Ackermann steering robots with integrated LiDAR-based obstacle avoidance.
@@ -262,6 +285,11 @@ ros2 run jetrover_controller enhanced_dance --audio /path/to/song.mp3 --threshol
 - `--threshold`: Obstacle detection distance (meters)
 - `--beats-per-move`: Movement segmentation (default: 4)
 
+![Enhanced Dance Demo](videos/enhanced-dance-obstacle-avoidance.mp4)
+*Ackermann robot performing dance moves while avoiding obstacles using LiDAR*
+
+> **📹 Video Demonstration**: The enhanced dance system seamlessly integrates choreographed movements with real-time obstacle avoidance, allowing the robot to continue dancing while navigating around obstacles.
+
 ### 6. Web Control Interface (`web.py`)
 
 A Flask-based web application providing remote robot control through a browser interface.
@@ -291,6 +319,9 @@ def move():
 ros2 run jetrover_controller web
 # Open browser: http://localhost:5000
 ```
+
+![Web Interface](images/web-control-interface.png)
+*Responsive web interface for remote robot control accessible from any device*
 
 ## 🛠️ Setup and Installation
 
@@ -330,6 +361,11 @@ source install/setup.bash
   ```
 
 ## 🎮 Usage Examples
+
+<div align="center">
+  <img src="images/usage-examples-collage.png" alt="Usage Examples" width="800"/>
+  <p><em>Various control methods: GUI, keyboard, web interface, and autonomous dance</em></p>
+</div>
 
 ### Basic Dance Performance
 ```bash
@@ -377,6 +413,9 @@ The system employs a sophisticated multi-stage audio analysis pipeline:
 5. **Classification**: Rule-based movement type selection
 6. **Choreography Generation**: Timeline-based movement sequence creation
 
+![Technical Pipeline](images/technical-pipeline-diagram.png)
+*Complete technical pipeline from audio input to robot movement execution*
+
 ### Movement Generation Algorithm
 
 ```python
@@ -411,6 +450,11 @@ def classify_movement_type(self, segment_features):
 
 ## 🔬 Robot Platform Configurations
 
+<div align="center">
+  <img src="images/robot-platforms-comparison.png" alt="Robot Platforms" width="750"/>
+  <p><em>Comparison of Mecanum wheel and Ackermann steering platforms with their capabilities</em></p>
+</div>
+
 ### Mecanum Wheel Platform
 - **Degrees of Freedom**: 3 (X, Y, θ)
 - **Movement Types**: Omnidirectional translation + rotation
@@ -435,6 +479,9 @@ def classify_movement_type(self, segment_features):
 - **Synchronization Accuracy**: ±10ms between robots
 - **Message Throughput**: 50Hz servo commands, 10Hz base movements
 - **Network Latency**: <5ms ROS2 topic communication
+
+![Performance Metrics](images/performance-metrics-dashboard.png)
+*Real-time performance metrics and system monitoring dashboard*
 
 ## 🚀 Future Work: Reinforcement Learning Integration
 
@@ -485,6 +532,9 @@ class MultiRobotChoreographyAgent:
 3. **Continuous Improvement**: Performance quality increases with experience
 4. **Emergent Behaviors**: Discovery of novel, creative movement combinations
 
+![RL Architecture](images/rl-architecture-diagram.png)
+*Proposed reinforcement learning architecture for adaptive choreography generation*
+
 #### Implementation Roadmap
 
 **Phase 1: Single-Robot RL**
@@ -505,6 +555,32 @@ class MultiRobotChoreographyAgent:
 
 This RL integration would represent a significant advancement in robotic choreography, moving from pre-programmed responses to intelligent, adaptive dance generation that improves with experience and creates unique, engaging performances.
 
+## 📸 Media Assets Reference
+
+### Images Required:
+- `images/robot-dance-hero.gif` - Hero animation of multi-robot dance performance
+- `images/system-overview.png` - System architecture diagram
+- `images/musical-analysis-features.png` - Musical feature extraction visualization
+- `images/multi-robot-coordination.gif` - Three robots synchronized choreography
+- `images/arm-keyboard-control.png` - Arm control interface screenshot
+- `images/gui-control-interface.png` - GUI control panel screenshot
+- `images/web-control-interface.png` - Web interface screenshot
+- `images/usage-examples-collage.png` - Collage of different control methods
+- `images/technical-pipeline-diagram.png` - Technical pipeline flowchart
+- `images/robot-platforms-comparison.png` - Platform comparison diagram
+- `images/performance-metrics-dashboard.png` - Performance monitoring dashboard
+- `images/rl-architecture-diagram.png` - RL architecture diagram
+
+### Videos Required:
+- `videos/enhanced-dance-obstacle-avoidance.mp4` - Ackermann robot dancing with obstacle avoidance
+
+### Recommended Image Specifications:
+- **Hero GIF**: 800x400px, <2MB, showcasing multiple robots dancing
+- **Diagrams**: 800x600px, high contrast, professional styling
+- **Screenshots**: 1200x800px, clear UI elements, good lighting
+- **GIFs**: 600x400px, <1MB, smooth 15-30fps
+- **Video**: 1080p, <10MB, 30-60 seconds demonstration
+
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -520,6 +596,3 @@ For questions, suggestions, or collaboration opportunities, please open an issue
 ---
 
 *This project represents the cutting edge of algorithmic robotics choreography, combining advanced signal processing, rule-based movement generation, and multi-robot coordination to create autonomous dance performances that respond intelligently to musical input.*
-=======
-## MULTI ROBOT CHOREGRAPHY
->>>>>>> b4f2c99c00252633ca324cbf37b500a8b01081b4
