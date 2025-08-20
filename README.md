@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🤖 Robots Choreography Controller
 
 [![ROS2](https://img.shields.io/badge/ROS2-Humble-blue.svg)](https://docs.ros.org/en/humble/)
@@ -519,3 +520,6 @@ For questions, suggestions, or collaboration opportunities, please open an issue
 ---
 
 *This project represents the cutting edge of algorithmic robotics choreography, combining advanced signal processing, rule-based movement generation, and multi-robot coordination to create autonomous dance performances that respond intelligently to musical input.*
+=======
+## MULTI ROBOT CHOREGRAPHY
+>>>>>>> b4f2c99c00252633ca324cbf37b500a8b01081b4
