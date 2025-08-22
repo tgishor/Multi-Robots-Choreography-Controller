@@ -1,4 +1,4 @@
-# 🤖 Robots Choreography Controller
+# Multi Robots Choreography Controller
 
 [![ROS2](https://img.shields.io/badge/ROS2-Humble-blue.svg)](https://docs.ros.org/en/humble/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-green.svg)](https://www.python.org/)
