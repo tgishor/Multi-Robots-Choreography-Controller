@@ -1,0 +1,250 @@
+[0.000000] (-) TimerEvent: {}
+[0.027361] (jetrover_controller) JobQueued: {'identifier': 'jetrover_controller', 'dependencies': OrderedDict()}
+[0.027533] (jetrover_controller) JobStarted: {'identifier': 'jetrover_controller'}
+[0.084622] (-) TimerEvent: {}
+[0.187838] (-) TimerEvent: {}
+[0.339754] (-) TimerEvent: {}
+[0.440769] (-) TimerEvent: {}
+[0.542428] (-) TimerEvent: {}
+[0.643392] (-) TimerEvent: {}
+[0.744154] (-) TimerEvent: {}
+[0.851742] (-) TimerEvent: {}
+[0.961179] (-) TimerEvent: {}
+[1.089212] (-) TimerEvent: {}
+[1.193192] (-) TimerEvent: {}
+[1.297989] (-) TimerEvent: {}
+[1.398691] (-) TimerEvent: {}
+[1.499493] (-) TimerEvent: {}
+[1.600336] (-) TimerEvent: {}
+[1.701979] (-) TimerEvent: {}
+[1.803293] (-) TimerEvent: {}
+[1.908984] (-) TimerEvent: {}
+[2.010951] (-) TimerEvent: {}
+[2.111621] (-) TimerEvent: {}
+[2.217242] (-) TimerEvent: {}
+[2.318894] (-) TimerEvent: {}
+[2.420879] (-) TimerEvent: {}
+[2.522122] (-) TimerEvent: {}
+[2.622813] (-) TimerEvent: {}
+[2.724654] (-) TimerEvent: {}
+[2.831011] (-) TimerEvent: {}
+[2.933157] (-) TimerEvent: {}
+[3.034731] (-) TimerEvent: {}
+[3.135483] (-) TimerEvent: {}
+[3.237483] (-) TimerEvent: {}
+[3.339217] (-) TimerEvent: {}
+[3.442059] (-) TimerEvent: {}
+[3.542954] (-) TimerEvent: {}
+[3.645497] (-) TimerEvent: {}
+[3.753188] (-) TimerEvent: {}
+[3.853939] (-) TimerEvent: {}
+[3.957308] (-) TimerEvent: {}
+[4.061198] (-) TimerEvent: {}
+[4.164982] (-) TimerEvent: {}
+[4.267845] (-) TimerEvent: {}
+[4.369141] (-) TimerEvent: {}
+[4.469869] (-) TimerEvent: {}
+[4.571194] (-) TimerEvent: {}
+[4.673641] (-) TimerEvent: {}
+[4.776304] (-) TimerEvent: {}
+[4.881714] (-) TimerEvent: {}
+[4.983127] (-) TimerEvent: {}
+[5.084803] (-) TimerEvent: {}
+[5.186787] (-) TimerEvent: {}
+[5.290906] (-) TimerEvent: {}
+[5.393527] (-) TimerEvent: {}
+[5.495134] (-) TimerEvent: {}
+[5.597152] (-) TimerEvent: {}
+[5.697873] (-) TimerEvent: {}
+[5.799803] (-) TimerEvent: {}
+[5.905390] (-) TimerEvent: {}
+[6.007285] (-) TimerEvent: {}
+[6.114721] (-) TimerEvent: {}
+[6.218146] (-) TimerEvent: {}
+[6.323123] (-) TimerEvent: {}
+[6.425063] (-) TimerEvent: {}
+[6.526799] (-) TimerEvent: {}
+[6.627938] (-) TimerEvent: {}
+[6.736304] (-) TimerEvent: {}
+[6.837951] (-) TimerEvent: {}
+[6.939100] (-) TimerEvent: {}
+[7.040044] (-) TimerEvent: {}
+[7.140846] (-) TimerEvent: {}
+[7.242438] (-) TimerEvent: {}
+[7.343229] (-) TimerEvent: {}
+[7.443925] (-) TimerEvent: {}
+[7.546016] (-) TimerEvent: {}
+[7.651870] (-) TimerEvent: {}
+[7.763147] (-) TimerEvent: {}
+[7.864752] (-) TimerEvent: {}
+[7.967067] (-) TimerEvent: {}
+[8.070989] (-) TimerEvent: {}
+[8.173555] (-) TimerEvent: {}
+[8.276192] (-) TimerEvent: {}
+[8.377506] (-) TimerEvent: {}
+[8.478968] (-) TimerEvent: {}
+[8.579749] (-) TimerEvent: {}
+[8.689166] (-) TimerEvent: {}
+[8.789872] (-) TimerEvent: {}
+[8.915626] (-) TimerEvent: {}
+[9.021160] (-) TimerEvent: {}
+[9.121896] (-) TimerEvent: {}
+[9.222951] (-) TimerEvent: {}
+[9.324086] (-) TimerEvent: {}
+[9.425911] (-) TimerEvent: {}
+[9.526634] (-) TimerEvent: {}
+[9.628181] (-) TimerEvent: {}
+[9.728938] (-) TimerEvent: {}
+[9.831882] (-) TimerEvent: {}
+[9.938943] (-) TimerEvent: {}
+[10.058990] (-) TimerEvent: {}
+[10.160658] (-) TimerEvent: {}
+[10.262974] (-) TimerEvent: {}
+[10.367135] (-) TimerEvent: {}
+[10.468452] (-) TimerEvent: {}
+[10.570589] (-) TimerEvent: {}
+[10.673669] (-) TimerEvent: {}
+[10.774919] (-) TimerEvent: {}
+[10.879530] (-) TimerEvent: {}
+[10.981711] (-) TimerEvent: {}
+[11.083389] (-) TimerEvent: {}
+[11.184339] (-) TimerEvent: {}
+[11.285260] (-) TimerEvent: {}
+[11.386631] (-) TimerEvent: {}
+[11.488175] (-) TimerEvent: {}
+[11.589715] (-) TimerEvent: {}
+[11.691354] (-) TimerEvent: {}
+[11.792156] (-) TimerEvent: {}
+[11.892907] (-) TimerEvent: {}
+[11.994042] (-) TimerEvent: {}
+[12.094922] (-) TimerEvent: {}
+[12.196404] (-) TimerEvent: {}
+[12.297209] (-) TimerEvent: {}
+[12.398210] (-) TimerEvent: {}
+[12.503694] (-) TimerEvent: {}
+[12.604735] (-) TimerEvent: {}
+[12.710765] (-) TimerEvent: {}
+[12.818859] (-) TimerEvent: {}
+[12.920906] (-) TimerEvent: {}
+[13.023959] (-) TimerEvent: {}
+[13.127325] (-) TimerEvent: {}
+[13.228902] (-) TimerEvent: {}
+[13.330533] (-) TimerEvent: {}
+[13.433288] (-) TimerEvent: {}
+[13.536454] (-) TimerEvent: {}
+[13.641977] (-) TimerEvent: {}
+[13.743878] (-) TimerEvent: {}
+[13.845498] (-) TimerEvent: {}
+[13.946389] (-) TimerEvent: {}
+[14.054453] (jetrover_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/jetrover_controller', 'build', '--build-base', '/home/ubuntu/axy_proj/build/jetrover_controller/build', 'install', '--record', '/home/ubuntu/axy_proj/build/jetrover_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/axy_proj/src/jetrover_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.137.1 56009 22', 'ROS_PACKAGE_PATH': '/home/ubuntu/third_party_ros2/third_party_ws/install/async_web_server_cpp/share', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/ros2_ws/install/xf_mic_asr_offline_msgs/lib:/home/ubuntu/ros2_ws/install/servo_controller_msgs/lib:/home/ubuntu/ros2_ws/install/ros_robot_controller_msgs/lib:/home/ubuntu/ros2_ws/install/kinematics_msgs/lib:/home/ubuntu/ros2_ws/install/interfaces/lib:/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap_slam/lib:/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap_odom/lib:/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap_util/lib:/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap_sync/lib:/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap_rviz_plugins/lib:/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap_conversions/lib:/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap_msgs/lib:/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap/lib:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_camera/lib:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_camera_msgs/lib:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_local_planner/lib:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_msgs/lib:/home/ubuntu/third_party_ros2/third_party_ws/install/laser_filters/lib:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter/lib:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter_msgs/lib:/home/ubuntu/third_party_ros2/third_party_ws/install/async_web_server_cpp/lib:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_ros/lib:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64:', 'BROWSER': '/home/ubuntu/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'TERM_PROGRAM_VERSION': '0.50.7', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-c1ed256e-49e2-411a-837a-6dec0b8a65c4.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/axy_proj/install:/home/ubuntu/ros2_ws/install:/home/ubuntu/third_party_ros2/rtabmap_ws/install:/home/ubuntu/third_party_ros2/orbbec_ws/install:/home/ubuntu/third_party_ros2/third_party_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap/lib/aarch64-linux-gnu/pkgconfig:/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap/lib/pkgconfig:/home/ubuntu/third_party_ros2/third_party_ws/install/async_web_server_cpp/lib/aarch64-linux-gnu/pkgconfig:/home/ubuntu/third_party_ros2/third_party_ws/install/async_web_server_cpp/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '7', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap/bin:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter/bin:/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/home/ubuntu/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_HK.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-78d9c479c9.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/xf_mic_asr_offline:/home/ubuntu/ros2_ws/install/xf_mic_asr_offline_msgs:/home/ubuntu/ros2_ws/install/slam:/home/ubuntu/ros2_ws/install/servo_controller_msgs:/home/ubuntu/ros2_ws/install/servo_controller:/home/ubuntu/ros2_ws/install/sdk:/home/ubuntu/ros2_ws/install/ros_robot_controller_msgs:/home/ubuntu/ros2_ws/install/ros_robot_controller:/home/ubuntu/ros2_ws/install/peripherals:/home/ubuntu/ros2_ws/install/navigation:/home/ubuntu/ros2_ws/install/kinematics_msgs:/home/ubuntu/ros2_ws/install/kinematics:/home/ubuntu/ros2_ws/install/jetrover_description:/home/ubuntu/ros2_ws/install/interfaces:/home/ubuntu/ros2_ws/install/example:/home/ubuntu/ros2_ws/install/controller:/home/ubuntu/ros2_ws/install/calibration:/home/ubuntu/ros2_ws/install/bringup:/home/ubuntu/ros2_ws/install/app:/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap_ros:/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap_launch:/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap_examples:/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap_demos:/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap_viz:/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap_slam:/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap_odom:/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap_util:/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap_sync:/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap_rviz_plugins:/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap_python:/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap_conversions:/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap_msgs:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_description:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_camera:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_camera_msgs:/home/ubuntu/third_party_ros2/third_party_ws/install/ydlidar_ros2_driver:/home/ubuntu/third_party_ros2/third_party_ws/install/web_video_server:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_local_planner:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_msgs:/home/ubuntu/third_party_ros2/third_party_ws/install/sllidar_ros2:/home/ubuntu/third_party_ros2/third_party_ws/install/rf2o_laser_odometry:/home/ubuntu/third_party_ros2/third_party_ws/install/ldlidar_stl_ros2:/home/ubuntu/third_party_ros2/third_party_ws/install/laser_filters:/home/ubuntu/third_party_ros2/third_party_ws/install/imu_calib:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter_msgs:/home/ubuntu/third_party_ros2/third_party_ws/install/ascamera_listener:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_ros:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_msgs:/opt/ros/humble:/home/ubuntu/axy_proj/install/jetrover_controller', 'SHELL': '/bin/zsh', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/axy_proj/build/jetrover_controller', 'SSH_CONNECTION': '192.168.137.1 56009 192.168.137.236 22', 'PYTHONPATH': '/home/ubuntu/axy_proj/build/jetrover_controller/prefix_override:/home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/xf_mic_asr_offline/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/xf_mic_asr_offline_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/build/slam:/home/ubuntu/ros2_ws/install/slam/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/servo_controller_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/build/servo_controller:/home/ubuntu/ros2_ws/install/servo_controller/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/build/sdk:/home/ubuntu/ros2_ws/install/sdk/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/build/ros_robot_controller:/home/ubuntu/ros2_ws/install/ros_robot_controller/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/build/peripherals:/home/ubuntu/ros2_ws/install/peripherals/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/build/navigation:/home/ubuntu/ros2_ws/install/navigation/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/kinematics_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/build/kinematics:/home/ubuntu/ros2_ws/install/kinematics/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/build/jetrover_description:/home/ubuntu/ros2_ws/install/jetrover_description/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/build/example:/home/ubuntu/ros2_ws/install/example/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/build/controller:/home/ubuntu/ros2_ws/install/controller/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/build/calibration:/home/ubuntu/ros2_ws/install/calibration/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/build/bringup:/home/ubuntu/ros2_ws/install/bringup/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/build/app:/home/ubuntu/ros2_ws/install/app/lib/python3.10/site-packages:/home/ubuntu/third_party_ros2/rtabmap_ws/build/rtabmap_python:/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap_python/lib/python3.10/site-packages:/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/xf_mic_asr_offline:/home/ubuntu/ros2_ws/install/xf_mic_asr_offline_msgs:/home/ubuntu/ros2_ws/install/servo_controller_msgs:/home/ubuntu/ros2_ws/install/ros_robot_controller_msgs:/home/ubuntu/ros2_ws/install/kinematics_msgs:/home/ubuntu/ros2_ws/install/interfaces:/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap_ros:/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap_launch:/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap_examples:/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap_demos:/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap_viz:/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap_slam:/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap_odom:/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap_util:/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap_sync:/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap_rviz_plugins:/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap_conversions:/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap_msgs:/home/ubuntu/third_party_ros2/rtabmap_ws/install/rtabmap:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_description:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_camera:/home/ubuntu/third_party_ros2/orbbec_ws/install/orbbec_camera_msgs:/home/ubuntu/third_party_ros2/third_party_ws/install/ydlidar_ros2_driver:/home/ubuntu/third_party_ros2/third_party_ws/install/web_video_server:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_local_planner:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_msgs:/home/ubuntu/third_party_ros2/third_party_ws/install/sllidar_ros2:/home/ubuntu/third_party_ros2/third_party_ws/install/rf2o_laser_odometry:/home/ubuntu/third_party_ros2/third_party_ws/install/ldlidar_stl_ros2:/home/ubuntu/third_party_ros2/third_party_ws/install/laser_filters:/home/ubuntu/third_party_ros2/third_party_ws/install/imu_calib:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter_msgs:/home/ubuntu/third_party_ros2/third_party_ws/install/async_web_server_cpp:/home/ubuntu/third_party_ros2/third_party_ws/install/ascamera_listener:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_ros:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_msgs'}, 'shell': False}
+[14.059459] (-) TimerEvent: {}
+[14.181907] (-) TimerEvent: {}
+[14.283116] (-) TimerEvent: {}
+[14.384742] (-) TimerEvent: {}
+[14.485550] (-) TimerEvent: {}
+[14.593182] (-) TimerEvent: {}
+[14.694408] (-) TimerEvent: {}
+[14.795120] (-) TimerEvent: {}
+[14.895875] (-) TimerEvent: {}
+[14.996594] (-) TimerEvent: {}
+[15.100263] (-) TimerEvent: {}
+[15.207378] (-) TimerEvent: {}
+[15.308672] (-) TimerEvent: {}
+[15.409880] (-) TimerEvent: {}
+[15.514688] (-) TimerEvent: {}
+[15.616239] (-) TimerEvent: {}
+[15.719116] (-) TimerEvent: {}
+[15.819834] (-) TimerEvent: {}
+[15.920605] (-) TimerEvent: {}
+[16.021866] (-) TimerEvent: {}
+[16.126670] (-) TimerEvent: {}
+[16.229259] (-) TimerEvent: {}
+[16.333142] (-) TimerEvent: {}
+[16.468082] (-) TimerEvent: {}
+[16.569486] (-) TimerEvent: {}
+[16.671058] (-) TimerEvent: {}
+[16.771816] (-) TimerEvent: {}
+[16.872623] (-) TimerEvent: {}
+[16.975663] (-) TimerEvent: {}
+[17.077205] (-) TimerEvent: {}
+[17.183434] (-) TimerEvent: {}
+[17.284986] (-) TimerEvent: {}
+[17.385911] (-) TimerEvent: {}
+[17.489158] (-) TimerEvent: {}
+[17.590905] (-) TimerEvent: {}
+[17.692772] (-) TimerEvent: {}
+[17.793546] (-) TimerEvent: {}
+[17.895424] (-) TimerEvent: {}
+[17.954289] (jetrover_controller) StdoutLine: {'line': b'running egg_info\n'}
+[17.995770] (-) TimerEvent: {}
+[18.098378] (-) TimerEvent: {}
+[18.118363] (jetrover_controller) StdoutLine: {'line': b'writing ../../build/jetrover_controller/jetrover_controller.egg-info/PKG-INFO\n'}
+[18.129894] (jetrover_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/jetrover_controller/jetrover_controller.egg-info/dependency_links.txt\n'}
+[18.132316] (jetrover_controller) StdoutLine: {'line': b'writing entry points to ../../build/jetrover_controller/jetrover_controller.egg-info/entry_points.txt\n'}
+[18.156223] (jetrover_controller) StdoutLine: {'line': b'writing requirements to ../../build/jetrover_controller/jetrover_controller.egg-info/requires.txt\n'}
+[18.161878] (jetrover_controller) StdoutLine: {'line': b'writing top-level names to ../../build/jetrover_controller/jetrover_controller.egg-info/top_level.txt\n'}
+[18.200457] (-) TimerEvent: {}
+[18.303780] (-) TimerEvent: {}
+[18.406325] (-) TimerEvent: {}
+[18.507470] (-) TimerEvent: {}
+[18.525954] (jetrover_controller) StdoutLine: {'line': b"reading manifest file '../../build/jetrover_controller/jetrover_controller.egg-info/SOURCES.txt'\n"}
+[18.529785] (jetrover_controller) StdoutLine: {'line': b"writing manifest file '../../build/jetrover_controller/jetrover_controller.egg-info/SOURCES.txt'\n"}
+[18.531734] (jetrover_controller) StdoutLine: {'line': b'running build\n'}
+[18.532334] (jetrover_controller) StdoutLine: {'line': b'running build_py\n'}
+[18.532755] (jetrover_controller) StdoutLine: {'line': b'copying jetrover_controller/move_robot.py -> /home/ubuntu/axy_proj/build/jetrover_controller/build/lib/jetrover_controller\n'}
+[18.537960] (jetrover_controller) StdoutLine: {'line': b'copying jetrover_controller/robot_manager.py -> /home/ubuntu/axy_proj/build/jetrover_controller/build/lib/jetrover_controller\n'}
+[18.539854] (jetrover_controller) StdoutLine: {'line': b'copying jetrover_controller/dance_attempt.py -> /home/ubuntu/axy_proj/build/jetrover_controller/build/lib/jetrover_controller\n'}
+[18.541499] (jetrover_controller) StdoutLine: {'line': b'running install\n'}
+[18.563909] (jetrover_controller) StdoutLine: {'line': b'running install_lib\n'}
+[18.607661] (-) TimerEvent: {}
+[18.709567] (-) TimerEvent: {}
+[18.810283] (-) TimerEvent: {}
+[18.864244] (jetrover_controller) StdoutLine: {'line': b'copying /home/ubuntu/axy_proj/build/jetrover_controller/build/lib/jetrover_controller/move_robot.py -> /home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages/jetrover_controller\n'}
+[18.872748] (jetrover_controller) StdoutLine: {'line': b'copying /home/ubuntu/axy_proj/build/jetrover_controller/build/lib/jetrover_controller/robot_manager.py -> /home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages/jetrover_controller\n'}
+[18.879770] (jetrover_controller) StdoutLine: {'line': b'byte-compiling /home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages/jetrover_controller/move_robot.py to move_robot.cpython-310.pyc\n'}
+[18.885431] (jetrover_controller) StdoutLine: {'line': b'byte-compiling /home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages/jetrover_controller/robot_manager.py to robot_manager.cpython-310.pyc\n'}
+[18.896866] (jetrover_controller) StdoutLine: {'line': b'running install_data\n'}
+[18.900948] (jetrover_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[18.927213] (-) TimerEvent: {}
+[19.029431] (-) TimerEvent: {}
+[19.121461] (jetrover_controller) StdoutLine: {'line': b"removing '/home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages/jetrover_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[19.124048] (jetrover_controller) StdoutLine: {'line': b'Copying ../../build/jetrover_controller/jetrover_controller.egg-info to /home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages/jetrover_controller-0.0.0-py3.10.egg-info\n'}
+[19.126935] (jetrover_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[19.135170] (-) TimerEvent: {}
+[19.242703] (-) TimerEvent: {}
+[19.343489] (-) TimerEvent: {}
+[19.446865] (-) TimerEvent: {}
+[19.547922] (-) TimerEvent: {}
+[19.649619] (-) TimerEvent: {}
+[19.752533] (-) TimerEvent: {}
+[19.855091] (-) TimerEvent: {}
+[19.956837] (-) TimerEvent: {}
+[20.060680] (-) TimerEvent: {}
+[20.162557] (-) TimerEvent: {}
+[20.267707] (-) TimerEvent: {}
+[20.372669] (-) TimerEvent: {}
+[20.475009] (-) TimerEvent: {}
+[20.581211] (-) TimerEvent: {}
+[20.683407] (-) TimerEvent: {}
+[20.784546] (-) TimerEvent: {}
+[20.886027] (-) TimerEvent: {}
+[20.987843] (-) TimerEvent: {}
+[21.047321] (jetrover_controller) StdoutLine: {'line': b'Installing dance_attempt script to /home/ubuntu/axy_proj/install/jetrover_controller/lib/jetrover_controller\n'}
+[21.059909] (jetrover_controller) StdoutLine: {'line': b'Installing lidar_safety script to /home/ubuntu/axy_proj/install/jetrover_controller/lib/jetrover_controller\n'}
+[21.060639] (jetrover_controller) StdoutLine: {'line': b'Installing move_arm script to /home/ubuntu/axy_proj/install/jetrover_controller/lib/jetrover_controller\n'}
+[21.060977] (jetrover_controller) StdoutLine: {'line': b'Installing move_robot script to /home/ubuntu/axy_proj/install/jetrover_controller/lib/jetrover_controller\n'}
+[21.061269] (jetrover_controller) StdoutLine: {'line': b'Installing robo_manager script to /home/ubuntu/axy_proj/install/jetrover_controller/lib/jetrover_controller\n'}
+[21.061503] (jetrover_controller) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/axy_proj/build/jetrover_controller/install.log'\n"}
+[21.087588] (-) TimerEvent: {}
+[21.188344] (-) TimerEvent: {}
+[21.289636] (-) TimerEvent: {}
+[21.392619] (-) TimerEvent: {}
+[21.496569] (-) TimerEvent: {}
+[21.597929] (-) TimerEvent: {}
+[21.699029] (-) TimerEvent: {}
+[21.800564] (-) TimerEvent: {}
+[21.902834] (jetrover_controller) CommandEnded: {'returncode': 0}
+[21.904243] (-) TimerEvent: {}
+[22.006950] (-) TimerEvent: {}
+[22.077255] (jetrover_controller) JobEnded: {'identifier': 'jetrover_controller', 'rc': 0}
+[22.079613] (-) EventReactorShutdown: {}

@@ -1,0 +1,159 @@
+[1.931s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/home/ubuntu/.local/bin/colcon', 'build'][0m
+[1.932s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff937c9f00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff938af4f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff938af4f0>>)[0m
+[2.184s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[2.184s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[2.185s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[2.185s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[2.186s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[2.186s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[2.187s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/ubuntu/axy_proj'
+[2.187s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.188s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[2.189s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[2.189s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[2.189s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[2.190s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[2.190s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[2.191s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[2.192s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[2.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[2.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[2.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[2.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[2.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[2.267s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[2.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[2.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[2.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[2.274s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.274s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[2.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[2.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(msc) by extensions ['ignore', 'ignore_ament_install']
+[2.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(msc) by extension 'ignore'
+[2.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(msc) by extension 'ignore_ament_install'
+[2.278s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(msc) by extensions ['colcon_pkg']
+[2.278s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(msc) by extension 'colcon_pkg'
+[2.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(msc) by extensions ['colcon_meta']
+[2.279s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(msc) by extension 'colcon_meta'
+[2.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(msc) by extensions ['ros']
+[2.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(msc) by extension 'ros'
+[2.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(msc) by extensions ['cmake', 'python']
+[2.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(msc) by extension 'cmake'
+[2.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(msc) by extension 'python'
+[2.282s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(msc) by extensions ['python_setup_py']
+[2.282s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(msc) by extension 'python_setup_py'
+[2.283s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(msc/14568787b9f27199e9ec950aa0af565e) by extensions ['ignore', 'ignore_ament_install']
+[2.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(msc/14568787b9f27199e9ec950aa0af565e) by extension 'ignore'
+[2.284s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(msc/14568787b9f27199e9ec950aa0af565e) by extension 'ignore_ament_install'
+[2.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(msc/14568787b9f27199e9ec950aa0af565e) by extensions ['colcon_pkg']
+[2.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(msc/14568787b9f27199e9ec950aa0af565e) by extension 'colcon_pkg'
+[2.285s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(msc/14568787b9f27199e9ec950aa0af565e) by extensions ['colcon_meta']
+[2.286s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(msc/14568787b9f27199e9ec950aa0af565e) by extension 'colcon_meta'
+[2.286s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(msc/14568787b9f27199e9ec950aa0af565e) by extensions ['ros']
+[2.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(msc/14568787b9f27199e9ec950aa0af565e) by extension 'ros'
+[2.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(msc/14568787b9f27199e9ec950aa0af565e) by extensions ['cmake', 'python']
+[2.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(msc/14568787b9f27199e9ec950aa0af565e) by extension 'cmake'
+[2.289s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(msc/14568787b9f27199e9ec950aa0af565e) by extension 'python'
+[2.289s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(msc/14568787b9f27199e9ec950aa0af565e) by extensions ['python_setup_py']
+[2.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(msc/14568787b9f27199e9ec950aa0af565e) by extension 'python_setup_py'
+[2.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[2.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[2.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[2.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[2.293s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[2.293s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[2.294s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[2.295s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[2.295s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[2.296s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[2.296s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[2.296s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[2.297s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[2.298s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/jetrover_controller) by extensions ['ignore', 'ignore_ament_install']
+[2.298s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/jetrover_controller) by extension 'ignore'
+[2.299s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/jetrover_controller) by extension 'ignore_ament_install'
+[2.299s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/jetrover_controller) by extensions ['colcon_pkg']
+[2.301s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/jetrover_controller) by extension 'colcon_pkg'
+[2.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/jetrover_controller) by extensions ['colcon_meta']
+[2.303s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/jetrover_controller) by extension 'colcon_meta'
+[2.303s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/jetrover_controller) by extensions ['ros']
+[2.305s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/jetrover_controller) by extension 'ros'
+[2.316s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/jetrover_controller' with type 'ros.ament_python' and name 'jetrover_controller'[0m
+[2.317s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[2.318s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[2.318s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[2.319s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[2.319s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[2.396s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[2.396s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[2.412s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 1 installed packages in /home/ubuntu/axy_proj/install[0m
+[2.415s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 14 installed packages in /home/ubuntu/third_party_ros2/rtabmap_ws/install[0m
+[2.418s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 3 installed packages in /home/ubuntu/third_party_ros2/orbbec_ws/install[0m
+[2.421s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 15 installed packages in /home/ubuntu/third_party_ros2/third_party_ws/install[0m
+[2.427s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 19 installed packages in /home/ubuntu/ros2_ws/install[0m
+[2.436s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 357 installed packages in /opt/ros/humble[0m
+[2.443s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[3.039s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'jetrover_controller' build argument 'cmake_args' from command line to 'None'
+[3.041s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'jetrover_controller' build argument 'cmake_target' from command line to 'None'
+[3.041s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'jetrover_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.042s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'jetrover_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[3.042s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'jetrover_controller' build argument 'cmake_clean_first' from command line to 'False'
+[3.042s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'jetrover_controller' build argument 'cmake_force_configure' from command line to 'False'
+[3.043s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'jetrover_controller' build argument 'ament_cmake_args' from command line to 'None'
+[3.045s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'jetrover_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[3.045s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'jetrover_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.045s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'jetrover_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/axy_proj/build/jetrover_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/axy_proj/install/jetrover_controller', 'merge_install': False, 'path': '/home/ubuntu/axy_proj/src/jetrover_controller', 'symlink_install': False, 'test_result_base': None}[0m
+[3.048s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[3.053s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[3.056s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/ubuntu/axy_proj/src/jetrover_controller' with build type 'ament_python'
+[3.057s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('jetrover_controller', 'ament_prefix_path')
+[3.106s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.112s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ubuntu/axy_proj/install/jetrover_controller/share/jetrover_controller/hook/ament_prefix_path.ps1'
+[3.115s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ubuntu/axy_proj/install/jetrover_controller/share/jetrover_controller/hook/ament_prefix_path.dsv'
+[3.122s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ubuntu/axy_proj/install/jetrover_controller/share/jetrover_controller/hook/ament_prefix_path.sh'
+[3.138s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.139s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[9.000s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/ubuntu/axy_proj/src/jetrover_controller'
+[9.006s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.006s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[17.537s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/ubuntu/axy_proj/src/jetrover_controller': PYTHONPATH=/home/ubuntu/axy_proj/build/jetrover_controller/prefix_override:/home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/jetrover_controller build --build-base /home/ubuntu/axy_proj/build/jetrover_controller/build install --record /home/ubuntu/axy_proj/build/jetrover_controller/install.log --single-version-externally-managed install_data[0m
+[23.557s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/ubuntu/axy_proj/src/jetrover_controller' returned '0': PYTHONPATH=/home/ubuntu/axy_proj/build/jetrover_controller/prefix_override:/home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/jetrover_controller build --build-base /home/ubuntu/axy_proj/build/jetrover_controller/build install --record /home/ubuntu/axy_proj/build/jetrover_controller/install.log --single-version-externally-managed install_data[0m
+[23.595s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ubuntu/axy_proj/install/jetrover_controller' for CMake module files
+[23.598s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ubuntu/axy_proj/install/jetrover_controller' for CMake config files
+[23.604s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ubuntu/axy_proj/install/jetrover_controller/lib'
+[23.608s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ubuntu/axy_proj/install/jetrover_controller/bin'
+[23.609s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ubuntu/axy_proj/install/jetrover_controller/lib/pkgconfig/jetrover_controller.pc'
+[23.613s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages'
+[23.614s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('jetrover_controller', 'pythonpath')
+[23.615s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ubuntu/axy_proj/install/jetrover_controller/share/jetrover_controller/hook/pythonpath.ps1'
+[23.624s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/ubuntu/axy_proj/install/jetrover_controller/share/jetrover_controller/hook/pythonpath.dsv'
+[23.627s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/ubuntu/axy_proj/install/jetrover_controller/share/jetrover_controller/hook/pythonpath.sh'
+[23.634s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/ubuntu/axy_proj/install/jetrover_controller/bin'
+[23.635s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(jetrover_controller)
+[23.637s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ubuntu/axy_proj/install/jetrover_controller/share/jetrover_controller/package.ps1'
+[23.645s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/ubuntu/axy_proj/install/jetrover_controller/share/jetrover_controller/package.dsv'
+[23.650s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ubuntu/axy_proj/install/jetrover_controller/share/jetrover_controller/package.sh'
+[23.658s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ubuntu/axy_proj/install/jetrover_controller/share/jetrover_controller/package.bash'
+[23.663s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/ubuntu/axy_proj/install/jetrover_controller/share/jetrover_controller/package.zsh'
+[23.740s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/ubuntu/axy_proj/install/jetrover_controller/share/colcon-core/packages/jetrover_controller)
+[23.747s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[23.749s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[23.749s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[23.750s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[23.855s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[23.856s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[23.856s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[24.095s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[24.104s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ubuntu/axy_proj/install/local_setup.ps1'
+[24.165s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/ubuntu/axy_proj/install/_local_setup_util_ps1.py'
+[24.181s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ubuntu/axy_proj/install/setup.ps1'
+[24.275s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ubuntu/axy_proj/install/local_setup.sh'
+[24.301s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/ubuntu/axy_proj/install/_local_setup_util_sh.py'
+[24.345s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ubuntu/axy_proj/install/setup.sh'
+[24.382s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ubuntu/axy_proj/install/local_setup.bash'
+[24.415s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ubuntu/axy_proj/install/setup.bash'
+[24.439s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/ubuntu/axy_proj/install/local_setup.zsh'
+[24.442s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/ubuntu/axy_proj/install/setup.zsh'

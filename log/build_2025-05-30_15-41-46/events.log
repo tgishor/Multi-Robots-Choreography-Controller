@@ -1,0 +1,134 @@
+[0.000000] (-) TimerEvent: {}
+[0.003839] (jetrover_controller) JobQueued: {'identifier': 'jetrover_controller', 'dependencies': OrderedDict()}
+[0.003995] (jetrover_controller) JobStarted: {'identifier': 'jetrover_controller'}
+[0.093474] (-) TimerEvent: {}
+[0.194140] (-) TimerEvent: {}
+[0.294846] (-) TimerEvent: {}
+[0.395599] (-) TimerEvent: {}
+[0.497650] (-) TimerEvent: {}
+[0.598337] (-) TimerEvent: {}
+[0.699086] (-) TimerEvent: {}
+[0.799853] (-) TimerEvent: {}
+[0.900619] (-) TimerEvent: {}
+[1.001496] (-) TimerEvent: {}
+[1.102984] (-) TimerEvent: {}
+[1.203692] (-) TimerEvent: {}
+[1.307716] (-) TimerEvent: {}
+[1.408433] (-) TimerEvent: {}
+[1.509127] (-) TimerEvent: {}
+[1.610031] (-) TimerEvent: {}
+[1.710759] (-) TimerEvent: {}
+[1.811627] (-) TimerEvent: {}
+[1.913319] (-) TimerEvent: {}
+[2.014065] (-) TimerEvent: {}
+[2.114825] (-) TimerEvent: {}
+[2.215509] (-) TimerEvent: {}
+[2.317413] (-) TimerEvent: {}
+[2.418913] (-) TimerEvent: {}
+[2.520077] (-) TimerEvent: {}
+[2.623978] (-) TimerEvent: {}
+[2.724704] (-) TimerEvent: {}
+[2.826133] (-) TimerEvent: {}
+[2.933782] (-) TimerEvent: {}
+[3.035765] (-) TimerEvent: {}
+[3.136504] (-) TimerEvent: {}
+[3.237369] (-) TimerEvent: {}
+[3.338126] (-) TimerEvent: {}
+[3.440889] (-) TimerEvent: {}
+[3.542583] (-) TimerEvent: {}
+[3.647266] (-) TimerEvent: {}
+[3.751825] (-) TimerEvent: {}
+[3.852624] (-) TimerEvent: {}
+[3.957917] (-) TimerEvent: {}
+[4.059755] (-) TimerEvent: {}
+[4.163939] (-) TimerEvent: {}
+[4.265853] (-) TimerEvent: {}
+[4.372190] (-) TimerEvent: {}
+[4.475660] (-) TimerEvent: {}
+[4.576411] (-) TimerEvent: {}
+[4.678560] (-) TimerEvent: {}
+[4.779588] (-) TimerEvent: {}
+[4.880320] (-) TimerEvent: {}
+[4.982293] (-) TimerEvent: {}
+[5.083031] (-) TimerEvent: {}
+[5.183854] (-) TimerEvent: {}
+[5.285846] (-) TimerEvent: {}
+[5.388944] (-) TimerEvent: {}
+[5.489693] (-) TimerEvent: {}
+[5.590433] (-) TimerEvent: {}
+[5.692612] (-) TimerEvent: {}
+[5.793380] (-) TimerEvent: {}
+[5.894057] (-) TimerEvent: {}
+[5.994763] (-) TimerEvent: {}
+[6.095490] (-) TimerEvent: {}
+[6.196225] (-) TimerEvent: {}
+[6.296939] (-) TimerEvent: {}
+[6.397620] (-) TimerEvent: {}
+[6.499157] (-) TimerEvent: {}
+[6.600270] (-) TimerEvent: {}
+[6.702420] (-) TimerEvent: {}
+[6.803818] (-) TimerEvent: {}
+[6.905053] (-) TimerEvent: {}
+[7.006120] (-) TimerEvent: {}
+[7.106845] (-) TimerEvent: {}
+[7.207626] (-) TimerEvent: {}
+[7.308524] (-) TimerEvent: {}
+[7.409300] (-) TimerEvent: {}
+[7.511731] (-) TimerEvent: {}
+[7.614497] (jetrover_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/jetrover_controller', 'build', '--build-base', '/home/ubuntu/axy_proj/build/jetrover_controller/build', 'install', '--record', '/home/ubuntu/axy_proj/build/jetrover_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/axy_proj/src/jetrover_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.137.1 56009 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/cuda-12.2/lib64:', 'BROWSER': '/home/ubuntu/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/.cursor-server', 'TERM_PROGRAM_VERSION': '0.50.7', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-c1ed256e-49e2-411a-837a-6dec0b8a65c4.sock', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '7', 'PATH': '/usr/local/cuda-12.2/bin:/home/ubuntu/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_HK.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-78d9c479c9.sock', 'TERM_PROGRAM': 'vscode', 'SHELL': '/bin/zsh', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/axy_proj/build/jetrover_controller', 'SSH_CONNECTION': '192.168.137.1 56009 192.168.137.236 22', 'COLCON': '1', 'PYTHONPATH': '/home/ubuntu/axy_proj/build/jetrover_controller/prefix_override:/home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages:'}, 'shell': False}
+[7.617009] (-) TimerEvent: {}
+[7.728314] (-) TimerEvent: {}
+[7.829978] (-) TimerEvent: {}
+[7.935164] (-) TimerEvent: {}
+[8.035892] (-) TimerEvent: {}
+[8.136635] (-) TimerEvent: {}
+[8.237376] (-) TimerEvent: {}
+[8.338083] (-) TimerEvent: {}
+[8.440888] (-) TimerEvent: {}
+[8.541889] (-) TimerEvent: {}
+[8.653318] (-) TimerEvent: {}
+[8.759783] (-) TimerEvent: {}
+[8.860468] (-) TimerEvent: {}
+[8.897516] (jetrover_controller) StdoutLine: {'line': b'running egg_info\n'}
+[8.960002] (jetrover_controller) StdoutLine: {'line': b'writing ../../build/jetrover_controller/jetrover_controller.egg-info/PKG-INFO\n'}
+[8.960573] (-) TimerEvent: {}
+[8.963400] (jetrover_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/jetrover_controller/jetrover_controller.egg-info/dependency_links.txt\n'}
+[8.968444] (jetrover_controller) StdoutLine: {'line': b'writing entry points to ../../build/jetrover_controller/jetrover_controller.egg-info/entry_points.txt\n'}
+[8.968937] (jetrover_controller) StdoutLine: {'line': b'writing requirements to ../../build/jetrover_controller/jetrover_controller.egg-info/requires.txt\n'}
+[8.969918] (jetrover_controller) StdoutLine: {'line': b'writing top-level names to ../../build/jetrover_controller/jetrover_controller.egg-info/top_level.txt\n'}
+[9.060810] (-) TimerEvent: {}
+[9.138793] (jetrover_controller) StdoutLine: {'line': b"reading manifest file '../../build/jetrover_controller/jetrover_controller.egg-info/SOURCES.txt'\n"}
+[9.142628] (jetrover_controller) StdoutLine: {'line': b"writing manifest file '../../build/jetrover_controller/jetrover_controller.egg-info/SOURCES.txt'\n"}
+[9.157738] (jetrover_controller) StdoutLine: {'line': b'running build\n'}
+[9.158398] (jetrover_controller) StdoutLine: {'line': b'running build_py\n'}
+[9.158644] (jetrover_controller) StdoutLine: {'line': b'copying jetrover_controller/robot_manager.py -> /home/ubuntu/axy_proj/build/jetrover_controller/build/lib/jetrover_controller\n'}
+[9.158868] (jetrover_controller) StdoutLine: {'line': b'copying jetrover_controller/dance_attempt.py -> /home/ubuntu/axy_proj/build/jetrover_controller/build/lib/jetrover_controller\n'}
+[9.159073] (jetrover_controller) StdoutLine: {'line': b'running install\n'}
+[9.160923] (-) TimerEvent: {}
+[9.169828] (jetrover_controller) StdoutLine: {'line': b'running install_lib\n'}
+[9.234442] (jetrover_controller) StdoutLine: {'line': b'copying /home/ubuntu/axy_proj/build/jetrover_controller/build/lib/jetrover_controller/robot_manager.py -> /home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages/jetrover_controller\n'}
+[9.235095] (jetrover_controller) StdoutLine: {'line': b'copying /home/ubuntu/axy_proj/build/jetrover_controller/build/lib/jetrover_controller/dance_attempt.py -> /home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages/jetrover_controller\n'}
+[9.236919] (jetrover_controller) StdoutLine: {'line': b'byte-compiling /home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages/jetrover_controller/robot_manager.py to robot_manager.cpython-310.pyc\n'}
+[9.254885] (jetrover_controller) StdoutLine: {'line': b'byte-compiling /home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages/jetrover_controller/dance_attempt.py to dance_attempt.cpython-310.pyc\n'}
+[9.261112] (-) TimerEvent: {}
+[9.265948] (jetrover_controller) StdoutLine: {'line': b'running install_data\n'}
+[9.266541] (jetrover_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.340016] (jetrover_controller) StdoutLine: {'line': b"removing '/home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages/jetrover_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.346232] (jetrover_controller) StdoutLine: {'line': b'Copying ../../build/jetrover_controller/jetrover_controller.egg-info to /home/ubuntu/axy_proj/install/jetrover_controller/lib/python3.10/site-packages/jetrover_controller-0.0.0-py3.10.egg-info\n'}
+[9.346823] (jetrover_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[9.371918] (-) TimerEvent: {}
+[9.489229] (-) TimerEvent: {}
+[9.590313] (-) TimerEvent: {}
+[9.692980] (-) TimerEvent: {}
+[9.796174] (-) TimerEvent: {}
+[9.840239] (jetrover_controller) StdoutLine: {'line': b'Installing dance_attempt script to /home/ubuntu/axy_proj/install/jetrover_controller/lib/jetrover_controller\n'}
+[9.844420] (jetrover_controller) StdoutLine: {'line': b'Installing lidar_safety script to /home/ubuntu/axy_proj/install/jetrover_controller/lib/jetrover_controller\n'}
+[9.844843] (jetrover_controller) StdoutLine: {'line': b'Installing move_arm script to /home/ubuntu/axy_proj/install/jetrover_controller/lib/jetrover_controller\n'}
+[9.851895] (jetrover_controller) StdoutLine: {'line': b'Installing move_robot script to /home/ubuntu/axy_proj/install/jetrover_controller/lib/jetrover_controller\n'}
+[9.852441] (jetrover_controller) StdoutLine: {'line': b'Installing robo_manager script to /home/ubuntu/axy_proj/install/jetrover_controller/lib/jetrover_controller\n'}
+[9.852780] (jetrover_controller) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/axy_proj/build/jetrover_controller/install.log'\n"}
+[9.903772] (-) TimerEvent: {}
+[10.009571] (-) TimerEvent: {}
+[10.012463] (jetrover_controller) CommandEnded: {'returncode': 0}
+[10.091910] (jetrover_controller) JobEnded: {'identifier': 'jetrover_controller', 'rc': 0}
+[10.097751] (-) EventReactorShutdown: {}
