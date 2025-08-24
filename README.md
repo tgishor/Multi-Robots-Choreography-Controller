@@ -13,6 +13,11 @@ A sophisticated robotics choreography system that synchronizes multiple robots t
 
 This system transforms music into coordinated robotic dance performances using advanced audio signal processing and algorithmic movement generation. The project supports multiple robot platforms (Mecanum and Ackermann) and can orchestrate complex choreographies involving up to three robots simultaneously.
 
+### 🎥 Demonstration Video
+
+[![Robots Dancing to Beat It](https://img.youtube.com/vi/jOWBZk807vY/0.jpg)](https://youtu.be/jOWBZk807vY&t=0s)
+
+
 ### Key Features
 
 - 🎵 **Real-time Musical Analysis**: Advanced audio processing using librosa for tempo, beat, energy, and spectral analysis
