@@ -39,13 +39,6 @@ https://github.com/user-attachments/assets/a519afff-85e6-4330-8c32-da58c08851de
 <br><br>
 <sub>🎬 <strong>Recommended</strong>: Stream in HD on YouTube</sub>
 </td>
-<td align="center" width="50%">
-<a href="https://github.com/tgishor/Multi-Robots-Choreography-Controller/raw/main/BeatItPerformance.mp4">
-<img src="https://img.shields.io/badge/📥_DOWNLOAD_VIDEO-2196F3?style=for-the-badge&logo=download&logoColor=white&labelColor=000000" alt="Download Video" height="50"/>
-</a>
-<br><br>
-<sub>💾 <strong>Offline</strong>: Download full video (~400MB)</sub>
-</td>
 </tr>
 </table>
 
@@ -55,8 +48,6 @@ https://github.com/user-attachments/assets/a519afff-85e6-4330-8c32-da58c08851de
 | Platform | Link | Quality | Size | Best For |
 |----------|------|---------|------|----------|
 | 🎬 **YouTube** | [Full Performance](https://youtu.be/jOWBZk807vY&t=0s) | 1080p HD | Streaming | Quick viewing, sharing |
-| 📥 **Direct Download** | [Download MP4](https://github.com/tgishor/Multi-Robots-Choreography-Controller/raw/main/BeatItPerformance.mp4) | 1080p | ~400MB | Offline viewing, presentations |
-| 🔗 **Raw File** | [GitHub Raw](https://raw.githubusercontent.com/tgishor/Multi-Robots-Choreography-Controller/main/BeatItPerformance.mp4) | 1080p | Stream | Technical analysis |
 
 > **💡 Pro Tip**: YouTube offers the smoothest playback experience with adaptive quality. Download the full video for offline presentations or technical analysis.
 
