@@ -1,3 +1,7 @@
+
+<img src="https://raw.githubusercontent.com/tgishor/Multi-Robots-Choreography-Controller/refs/heads/main/media/actual-banner.png" alt="System Architecture" width="800"/>
+
+
 # Multi Robots Choreography Controller
 
 [![ROS2](https://img.shields.io/badge/ROS2-Humble-blue.svg)](https://docs.ros.org/en/humble/)
@@ -6,7 +10,8 @@
 
 A sophisticated robotics choreography system that synchronizes multiple robots to perform expressive dance movements based on real-time musical analysis. This project combines advanced signal processing, algorithmic movement generation, and robotics to create an autonomous multi-robot dance performance system.
 
-![Robot Dance Performance](images/robot-dance-hero.gif)
+
+
 *Multi-robot synchronized dance performance responding to musical beats*
 
 ## 🎭 Overview 
