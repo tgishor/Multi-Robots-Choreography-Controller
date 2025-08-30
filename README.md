@@ -32,6 +32,14 @@ This system transforms music into coordinated robotic dance performances using a
 
 **Watch the complete 5-minute performance with full choreography, multiple robots, and advanced musical synchronization!**
 
+
+
+
+https://github.com/user-attachments/assets/a519afff-85e6-4330-8c32-da58c08851de
+
+
+
+
 <table>
 <tr>
 <td align="center" width="50%">
