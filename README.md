@@ -1,5 +1,5 @@
 
-<img src="https://raw.githubusercontent.com/tgishor/Multi-Robots-Choreography-Controller/refs/heads/main/media/actual-banner.png" alt="System Architecture" width="800"/>
+<img src="https://raw.githubusercontent.com/tgishor/Multi-Robots-Choreography-Controller/refs/heads/main/media/actual-banner.png" alt="System Architecture - Multi-robot synchronized dance performance responding to musical beats" />
 
 
 # Multi Robots Choreography Controller
@@ -10,18 +10,67 @@
 
 A sophisticated robotics choreography system that synchronizes multiple robots to perform expressive dance movements based on real-time musical analysis. This project combines advanced signal processing, algorithmic movement generation, and robotics to create an autonomous multi-robot dance performance system.
 
-
-
-*Multi-robot synchronized dance performance responding to musical beats*
-
 ## 🎭 Overview 
 
 This system transforms music into coordinated robotic dance performances using advanced audio signal processing and algorithmic movement generation. The project supports multiple robot platforms (Mecanum and Ackermann) and can orchestrate complex choreographies involving up to three robots simultaneously.
 
 ### 🎥 Demonstration Video
 
-[![Robots Dancing to Beat It](https://img.youtube.com/vi/jOWBZk807vY/0.jpg)](https://youtu.be/jOWBZk807vY&t=0s)
+<div align="center">
 
+<!-- Preview Video with Interactive Controls -->
+<table>
+<tr>
+<td align="center">
+<h4>🎬 Quick Preview</h4>
+<video width="640" height="360" controls poster="https://img.youtube.com/vi/jOWBZk807vY/maxresdefault.jpg">
+  <source src="https://raw.githubusercontent.com/tgishor/Multi-Robots-Choreography-Controller/refs/heads/main/media/BeatItPerformance%20-%20Trim%20-%20Trim.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<br>
+<sub>⚡ A quick one-minute demo showing key highlights</sub>
+</td>
+</tr>
+</table>
+
+<!-- Interactive Call-to-Action for Full Video -->
+<div style="background: linear-gradient(45deg, #ff6b6b, #4ecdc4); padding: 20px; border-radius: 15px; margin: 20px 0; box-shadow: 0 8px 32px rgba(0,0,0,0.1);">
+<h3 style="color: white; margin: 0 0 10px 0;">🚀 Ready for the Full Experience?</h3>
+<p style="color: white; margin: 0 0 15px 0;">Watch the complete 5-minute performance with full choreography, multiple robots, and advanced musical synchronization!</p>
+
+<a href="https://youtu.be/jOWBZk807vY&t=0s">
+<img src="https://img.shields.io/badge/🎥_WATCH_FULL_VIDEO-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=000000" alt="Watch Full Video" height="50"/>
+</a>
+
+<br><br>
+
+<!-- Alternative viewing options -->
+<details>
+<summary><strong>📱 More Viewing Options</strong></summary>
+<br>
+
+| Platform | Link | Quality | Size |
+|----------|------|---------|------|
+| 🎬 **YouTube** (Recommended) | [Full Performance](https://youtu.be/jOWBZk807vY&t=0s) | 1080p HD | Streaming |
+| 📥 **Direct Download** | [Download MP4](https://github.com/tgishor/Multi-Robots-Choreography-Controller/raw/main/BeatItPerformance.mp4) | 1080p | ~400MB |
+| 🔗 **Raw File** | [GitHub Raw](https://raw.githubusercontent.com/tgishor/Multi-Robots-Choreography-Controller/main/BeatItPerformance.mp4) | 1080p | Stream/Download |
+
+> **💡 Pro Tip**: For the best viewing experience with smooth playback, we recommend the YouTube version. For offline viewing or technical analysis, use the direct download option.
+
+</details>
+
+</div>
+
+<!-- Visual Separator with Performance Stats -->
+<div align="center">
+<img src="https://user-images.githubusercontent.com/1/1.png" width="1" height="20"/>
+
+**🎯 Performance Highlights**: 3 Synchronized Robots • Real-time Beat Detection • 5-Minute Choreography • Advanced AI Control
+
+<img src="https://user-images.githubusercontent.com/1/1.png" width="1" height="20"/>
+</div>
+
+</div>
 
 ### Key Features
 
