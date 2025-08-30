@@ -30,17 +30,11 @@ https://github.com/user-attachments/assets/a519afff-85e6-4330-8c32-da58c08851de
 
 **Watch the complete 5-minute performance with full choreography, multiple robots, and advanced musical synchronization!**
 
-<table>
-<tr>
-<td align="center" width="50%">
 <a href="https://youtu.be/jOWBZk807vY&t=0s">
 <img src="https://img.shields.io/badge/🎥_WATCH_FULL_VIDEO-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=000000" alt="Watch Full Video" height="50"/>
 </a>
-<br><br>
 <sub>🎬 <strong>Recommended</strong>: Stream in HD on YouTube</sub>
-</td>
-</tr>
-</table>
+
 
 <details>
 <summary><strong>📱 Additional Viewing Options</strong></summary>
