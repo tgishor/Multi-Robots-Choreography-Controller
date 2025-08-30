@@ -21,24 +21,14 @@ This system transforms music into coordinated robotic dance performances using a
 #### 🎬 Quick Preview
 *A quick one-minute demo showing key highlights*
 
-<video width="640" height="360" controls poster="https://img.youtube.com/vi/jOWBZk807vY/maxresdefault.jpg">
-  <source src="https://raw.githubusercontent.com/tgishor/Multi-Robots-Choreography-Controller/refs/heads/main/media/BeatItPerformance%20-%20Trim%20-%20Trim.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+https://github.com/user-attachments/assets/a519afff-85e6-4330-8c32-da58c08851de
 
 ---
 
 ## 🚀 Ready for the Full Experience?
 
 **Watch the complete 5-minute performance with full choreography, multiple robots, and advanced musical synchronization!**
-
-
-
-
-https://github.com/user-attachments/assets/a519afff-85e6-4330-8c32-da58c08851de
-
-
-
 
 <table>
 <tr>
