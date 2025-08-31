@@ -744,7 +744,32 @@ Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTIN
 
 ## 📧 Contact
 
-For questions, suggestions, or collaboration opportunities, please open an issue or contact the development team.
+### 👨‍💻 Lead Developer & Project Creator
+
+**[Your Name]**  
+🎓 *[Your Title/Position]*  
+🏛️ *[Your Institution/Organization]*  
+
+📧 **Email**: [contact@tgishor.com] | [tgishor@gmail.com]   
+💼 **LinkedIn**: [linkedin.com/in/gishor-thavakumar]  
+🐙 **GitHub**: [github.com/tgishor](https://github.com/tgishor)  
+🌐 **Website**: [tgishor.com]  
+
+### 🤝 Get In Touch
+
+- **🔬 Research Collaboration**: Interested in multi-robot choreography research
+- **🎭 Performance Opportunities**: Looking to showcase robotic dance performances  
+- **💻 Technical Support**: Questions about implementation or setup
+- **🎓 Educational Use**: Academic institutions wanting to use this system
+- **🚀 Commercial Applications**: Business inquiries and partnerships
+
+### 📝 How to Reach Us
+
+1. **GitHub Issues**: [Open an issue](https://github.com/tgishor/Multi-Robots-Choreography-Controller/issues) for technical questions
+2. **Email**: Direct contact for collaboration inquiries
+3. **LinkedIn**: Professional networking and partnership opportunities
+
+> **🎯 Response Time**: We typically respond to inquiries within 24-48 hours. For urgent technical support, please use GitHub issues with the "urgent" label.
 
 ---
 
