@@ -704,7 +704,7 @@ def classify_movement_type(self, segment_features):
 
 ### Vision: Adaptive Choreography Learning
 
-The next evolutionary step for this system involves implementing **Reinforcement Learning (RL)** to enable robots to learn and optimize their dance movements over time. This would transform the current rule-based system into an adaptive, AI-driven choreography engine that learns from experience.
+The next evolutionary step for this system involves implementing **Reinforcement Learning (RL)** to enable robots to learn and optimize their dance movements over time. This would transform the current system into an adaptive, AI-driven choreography engine that learns from experience.
 
 #### Proposed RL Architecture
 
@@ -767,7 +767,6 @@ class MultiRobotChoreographyAgent:
 - Real-time adaptation during performances
 - Transfer learning across different musical genres
 
-
 This RL integration would represent a significant advancement in robotic choreography, moving from pre-programmed responses to intelligent, adaptive dance generation that improves with experience and creates unique, engaging performances.
 
 ## 👥 Our Team
@@ -775,13 +774,9 @@ This RL integration would represent a significant advancement in robotic choreog
 <div align="center">
 
 ![Team Photo](https://raw.githubusercontent.com/tgishor/Multi-Robots-Choreography-Controller/refs/heads/main/media/team-photo.JPEG)
-*The brilliant minds behind the Multi-Robot Choreography Controller - passionate robotics engineers and AI researchers dedicated to pushing the boundaries of autonomous dance performance*
+*The minds behind the Multi-Robot Choreography Controller*
 
 ### Meet the Innovation Team
-
-**🎯 Mission**: Transforming the intersection of robotics, artificial intelligence, and artistic expression through cutting-edge multi-robot choreography systems.
-
-**🔬 Expertise**: Advanced signal processing, robotics control systems, machine learning, and algorithmic choreography generation.
 
 **🎭 Vision**: Creating autonomous robotic performances that blur the line between technology and art, making robotics more engaging and accessible to everyone.
 
@@ -800,12 +795,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
 ## 📧 Contact
-
-### 👨‍💻 Lead Developer & Project Creator
-
-**[Your Name]**  
-🎓 *[Your Title/Position]*  
-🏛️ *[Your Institution/Organization]*  
 
 📧 **Email**: [contact@tgishor.com] | [tgishor@gmail.com]   
 💼 **LinkedIn**: [linkedin.com/in/gishor-thavakumar]  
