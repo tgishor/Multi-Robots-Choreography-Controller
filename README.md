@@ -168,7 +168,7 @@ mfccs = librosa.feature.mfcc(y=y, sr=sr, n_mfcc=13)
 - **Onset Detection**: Sharp attack identification for accent movements
 
 ![All Servo Position Trajectories](https://raw.githubusercontent.com/tgishor/Multi-Robots-Choreography-Controller/refs/heads/main/media/output.png)
-*AI-generated servo position trajectories for a 140-second test song, showing synchronized movement patterns across all 6 servo joints (Servos 1-5 and 10) with position values ranging from 300-800 pulse width modulation units*
+*Servo position trajectories for a 140-second test song, showing synchronized movement patterns across all 6 servo joints (Servos 1-5 and 10) with position values ranging from 300-800 pulse width modulation units*
 
 #### Movement Classification System
 The system categorizes movements into distinct types based on musical characteristics:
