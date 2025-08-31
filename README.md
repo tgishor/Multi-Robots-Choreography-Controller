@@ -492,28 +492,10 @@ HOST=robot_2 ros2 launch multi_robot_formation apriltag_alignment.launch.py tag_
 
 ### 🎥 Formation System Demonstrations
 
-<table>
-<tr>
-<td align="center" width="50%">
-<h4>🎯 Initial Positioning Demo</h4>
-<video width="400" height="300" controls>
-  <source src="DEMO_VIDEO_1_URL_HERE" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-<br><br>
-<sub>Robot automatically detecting AprilTag and positioning itself at precise 2-meter distance</sub>
-</td>
-<td align="center" width="50%">
-<h4>🤖 Multi-Robot Coordination</h4>
-<video width="400" height="300" controls>
-  <source src="DEMO_VIDEO_2_URL_HERE" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-<br><br>
-<sub>Two robots coordinating their positions using AprilTag-based spatial mapping</sub>
-</td>
-</tr>
-</table>
+<h4>🎯 Initial Positioning Demo | Multi-Robot Coordination</h4>
+
+https://github.com/user-attachments/assets/657fda85-39c6-4251-929a-c91294aef4b2
+https://github.com/user-attachments/assets/4512d000-93ae-4da1-9b7d-d0858289f60c
 
 ### 📸 System Screenshot
 
