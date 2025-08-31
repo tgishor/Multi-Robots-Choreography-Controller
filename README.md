@@ -488,8 +488,6 @@ HOST=robot_2 ros2 launch multi_robot_formation apriltag_alignment.launch.py tag_
 
 #### Demo Videos & Screenshots
 
-<div align="center">
-
 ### 🎥 Formation System Demonstrations
 
 <h4>🎯 Initial Positioning Demo | Multi-Robot Coordination</h4>
