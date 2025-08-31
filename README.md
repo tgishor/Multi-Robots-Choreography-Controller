@@ -401,14 +401,14 @@ For optimal performance and memory efficiency, we highly recommend using our **m
 #### Installation:
 ```bash
 # Clone the memory-optimized workspace
-git clone https://github.com/tgishor/JetRover-Modified-ROS2-Workspace.git ~/jetros2_ws
-cd ~/jetros2_ws
+git clone https://github.com/tgishor/JetRover-Modified-ROS2-Workspace.git ~/ros2_ws
+cd ~/ros2_ws
 colcon build
 source install/setup.bash
 
 # Then clone this choreography controller
 cd ~/jetros2_ws/src
-git clone <repository-url> AI-Driven-Robots-Choregraphy-Controller
+git clone https://github.com/tgishor/Multi-Robots-Choreography-Controller
 cd ~/jetros2_ws
 colcon build --packages-select jetrover_controller
 ```
@@ -498,9 +498,6 @@ The system employs a sophisticated multi-stage audio analysis pipeline:
 4. **Segmentation**: Beat-aligned musical segments with feature vectors
 5. **Classification**: Rule-based movement type selection
 6. **Choreography Generation**: Timeline-based movement sequence creation
-
-![Technical Pipeline](images/technical-pipeline-diagram.png)
-*Complete technical pipeline from audio input to robot movement execution*
 
 ### Movement Generation Algorithm
 
