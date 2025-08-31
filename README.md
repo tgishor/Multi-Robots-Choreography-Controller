@@ -322,6 +322,10 @@ ros2 run jetrover_controller enhanced_dance --audio /path/to/song.mp3 --threshol
 - `--threshold`: Obstacle detection distance (meters)
 - `--beats-per-move`: Movement segmentation (default: 4)
 
+
+https://github.com/user-attachments/assets/adfbb867-0d43-4354-9fcc-0280088e6715
+
+
 ![Enhanced Dance Demo](videos/enhanced-dance-obstacle-avoidance.mp4)
 *Ackermann robot performing dance moves while avoiding obstacles using LiDAR*
 
