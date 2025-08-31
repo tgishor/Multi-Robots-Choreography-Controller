@@ -10,6 +10,63 @@
 
 A sophisticated robotics choreography system that synchronizes multiple robots to perform expressive dance movements based on real-time musical analysis. This project combines advanced signal processing, algorithmic movement generation, and robotics to create an autonomous multi-robot dance performance system.
 
+## 📋 Table of Contents
+
+<details>
+<summary><strong>🔍 Click to expand navigation</strong></summary>
+
+### 🎭 [Overview](#-overview)
+### 🎥 [Demonstration Video](#-demonstration-video)
+- [Quick Preview](#-quick-preview)
+- [Full Experience](#-ready-for-the-full-experience)
+
+### ⚡ [Key Features](#key-features)
+
+### 📁 [Project Structure](#-project-structure)
+
+### 🎯 [Core Implementation Details](#-core-implementation-details)
+- [1. Main Choreography Engine](#1-main-choreography-engine-dance_attemptpy)
+- [2. Arm Keyboard Controller](#2-arm-keyboard-controller-arm_keyboardpy)
+- [3. Arm Synchronizer](#3-arm-synchronizer-arm_synchronizerpy)
+- [4. Control GUI](#4-control-gui-control_guipy)
+- [5. Enhanced Dance with Obstacle Avoidance](#5-enhanced-dance-with-obstacle-avoidance-enhanced_dancepy)
+- [6. Web Control Interface](#6-web-control-interface-webpy)
+
+### 🛠️ [Setup and Installation](#️-setup-and-installation)
+- [Prerequisites](#prerequisites)
+- [Memory-Optimized ROS2 Workspace](#-memory-optimized-ros2-workspace-recommended)
+- [AprilTag-Based Initial Positioning](#-apriltag-based-initial-positioning-system-multi_robot_formation)
+- [Robot Configuration](#robot-configuration)
+
+### 🎮 [Usage Examples](#-usage-examples)
+- [Prerequisites: Bringup Process](#️-prerequisites-bringup-process)
+- [Basic Dance Performance](#basic-dance-performance)
+- [Manual Control](#manual-control)
+- [Advanced Features](#advanced-features)
+
+### 🧠 [Technical Deep Dive](#-technical-deep-dive)
+- [Musical Analysis Pipeline](#musical-analysis-pipeline)
+- [Movement Generation Algorithm](#movement-generation-algorithm)
+- [Safety and Reliability Systems](#safety-and-reliability-systems)
+
+### 🔬 [Robot Platform Configurations](#-robot-platform-configurations)
+
+### 📊 [Performance Metrics](#-performance-metrics)
+
+### 🚀 [Future Work: Reinforcement Learning](#-future-work-reinforcement-learning-integration)
+
+### 👥 [Our Team](#-our-team)
+
+### 📝 [License](#-license)
+
+### 🤝 [Contributing](#-contributing)
+
+### 📧 [Contact](#-contact)
+
+</details>
+
+---
+
 ## 🎭 Overview 
 
 This system transforms music into coordinated robotic dance performances using advanced audio signal processing and algorithmic movement generation. The project supports multiple robot platforms (Mecanum and Ackermann) and can orchestrate complex choreographies involving up to three robots simultaneously.
