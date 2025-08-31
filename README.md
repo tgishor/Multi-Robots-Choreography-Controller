@@ -68,8 +68,8 @@ https://github.com/user-attachments/assets/a519afff-85e6-4330-8c32-da58c08851de
 - 🖥️ **Multiple Control Interfaces**: GUI, web-based, and keyboard control options
 
 <div align="center">
-  <img src="images/system-overview.png" alt="System Architecture" width="800"/>
-  <p><em>System architecture showing multi-robot coordination and control interfaces</em></p>
+  <img src="https://raw.githubusercontent.com/tgishor/Multi-Robots-Choreography-Controller/refs/heads/main/high-level-diagrams/Simple-Single-System-Architecture.png" alt="System Architecture" width="1200"/>
+  <p><em>Simple System architecture featuring multi-robot coordination and control interfaces</em></p>
 </div>
 
 ## 📁 Project Structure
@@ -110,8 +110,8 @@ mfccs = librosa.feature.mfcc(y=y, sr=sr, n_mfcc=13)
 - **Harmonic Analysis**: Chroma features for tonal content
 - **Onset Detection**: Sharp attack identification for accent movements
 
-![Musical Analysis](images/musical-analysis-features.png)
-*Real-time musical feature extraction and analysis pipeline*
+![All Servo Position Trajectories](https://raw.githubusercontent.com/tgishor/Multi-Robots-Choreography-Controller/refs/heads/main/media/output.png)
+*AI-generated servo position trajectories for a 140-second test song, showing synchronized movement patterns across all 6 servo joints (Servos 1-5 and 10) with position values ranging from 300-800 pulse width modulation units*
 
 #### Movement Classification System
 The system categorizes movements into distinct types based on musical characteristics:
@@ -142,11 +142,6 @@ if self.beat_counter % 8 == 0 and amp > 200:
     self.robot3_move_direction *= -1
     robot3_twist.linear.x = 0.001 * amp * self.robot3_move_direction
 ```
-
-<div align="center">
-  <img src="images/multi-robot-coordination.gif" alt="Multi-Robot Coordination" width="600"/>
-  <p><em>Three robots performing synchronized choreography with different movement patterns</em></p>
-</div>
 
 #### Safety & Control Systems
 - **Emergency Stop**: Multi-layered stopping with keyboard monitoring
@@ -206,9 +201,6 @@ ros2 run jetrover_controller arm_keyboard --robot robot_1
 - `0/)`: Gripper -/+ (Open/Close)
 - `h`: Home position
 - `u/f/d`: Reach up/forward/down presets
-
-![Arm Control Interface](images/arm-keyboard-control.png)
-*Real-time arm control interface showing joint positions and control scheme*
 
 ### 3. Arm Synchronizer (`arm_synchronizer.py`)
 
@@ -280,8 +272,8 @@ ros2 run jetrover_controller control_gui
 - ROS2 geometry_msgs
 
 <div align="center">
-  <img src="images/gui-control-interface.png" alt="GUI Control Interface" width="700"/>
-  <p><em>Professional GUI interface for Mecanum robot control with real-time status</em></p>
+  <img src="https://raw.githubusercontent.com/tgishor/Multi-Robots-Choreography-Controller/refs/heads/main/media/keyboard.png" alt="GUI Control Interface" width="700"/>
+  <p><em> Web-based control interface accessible to any device on the same network - enabling collaborative group control where multiple team members can operate the robot from their phones, tablets, or computers simultaneously <br> Professional GUI interface for Mecanum robot control with real-time status</em></p>
 </div>
 
 ### 5. Enhanced Dance with Obstacle Avoidance (`enhanced_dance.py`)
